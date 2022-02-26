@@ -14,6 +14,11 @@ Repositorio de los proyectos realizados de Domótica y Entornos Inteligentes.
     - EigenFaces
     ```
 
+## Authors
+
+- [@Javiiiis](https://www.github.com/Javiiiis)
+- [@fmurciag](https://www.github.com/fmurciag)
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
