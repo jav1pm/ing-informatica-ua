@@ -2,7 +2,7 @@
 
 Repositorio de los proyectos realizados de Domótica y Entornos Inteligentes.
 
-# Contenido
+## Contenido
 
 - **Métodos de visión por computador realizados** :
 
@@ -14,11 +14,11 @@ Repositorio de los proyectos realizados de Domótica y Entornos Inteligentes.
     - EigenFaces
     ```
 
-## Authors
+## Autores
 
 - [@Javiiiis](https://www.github.com/Javiiiis)
 - [@fmurciag](https://www.github.com/fmurciag)
 
-## License
+## Licencia
 
 [MIT](https://choosealicense.com/licenses/mit/)
