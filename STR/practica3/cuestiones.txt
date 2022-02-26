@@ -1,0 +1,13 @@
+======================================================================================
+			PASO 2 : Cuestiones delay until vs delay
+======================================================================================
+
+1.  ¿Qué diferencia aprecias entre las ejecuciones que usan delay until y las que usan delay?
+2.  ¿A qué es debido esa diferencia?
+
+	La diferencia está en que al usar delay el retardo se va acomulando mientras que
+	al usar delay until este retardo acumulativo no aparece debido a que se va adaptando al tiempo que tarda la tarea.
+
+	
+
+	

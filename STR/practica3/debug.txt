@@ -1,0 +1,45 @@
+ 
+**************************************************************************
+**************************************************************************
+          PRACTICA STR: CONTROL DE TRAFICO
+**************************************************************************
+**************************************************************************
+ 
+Inicializando Entorno Gráfico...
+Entorno Gráfico Inicializado.
+======================INICIO TASK GeneraCoches
+======================INICIO TASK GeneraCoches
+======================INICIO TASK Coche
+======================INICIO TASK Coche
+======================INICIO TASK GeneraPeatones
+======================INICIO TASK Peaton
+======================INICIO TASK GeneraTaxis
+======================INICIO TASK Peaton
+======================INICIO TASK GeneraTrenes
+======================INICIO TASK Peaton
+======================INICIO TASK Taxi
+======================INICIO TASK Tren
+======================INICIO TASK Peaton
+======================INICIO TASK Coche
+======================INICIO TASK Coche
+======================INICIO TASK Coche
+======================INICIO TASK Coche
+======================FIN TASK Peatón
+======================FIN TASK Peatón
+======================FIN TASK Peatón
+======================FIN TASK Peatón
+======================INICIO TASK Coche
+======================INICIO TASK Coche
+======================FIN TASK Taxi
+======================FIN TASK Tren
+======================INICIO TASK Coche
+======================FIN TASK Coche
+======================FIN TASK Coche
+======================INICIO TASK Coche
+======================FIN TASK Coche
+======================INICIO TASK Peaton
+======================INICIO TASK Peaton
+======================INICIO TASK Coche
+======================INICIO TASK Coche
+======================INICIO TASK Taxi
+======================FIN TASK Coche

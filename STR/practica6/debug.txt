@@ -1,0 +1,69 @@
+ 
+**************************************************************************
+**************************************************************************
+          PRACTICA STR: CONTROL DE TRAFICO
+**************************************************************************
+**************************************************************************
+ 
+Inicializando Entorno Gráfico...
+Entorno Gráfico Inicializado.
+======================INICIO TASK GeneraTaxis
+======================INICIO TASK Taxi
+======================INICIO TASK GeneraPeatones
+======================INICIO TASK Peaton
+======================INICIO TASK Peaton
+======================INICIO TASK GeneraCoches
+======================INICIO TASK Peaton
+======================INICIO TASK GeneraCoches
+======================INICIO TASK Peaton
+======================INICIO TASK Coche
+======================INICIO TASK GeneraTrenes
+======================INICIO TASK Tren
+======================INICIO TASK Coche
+======================INICIO TASK Peaton
+======================FIN TASK Peatón
+======================FIN TASK Peatón
+Coche 1 averiado por SIN_GASOLINA
+======================INICIO TASK Coche
+======================FIN TASK Peatón
+======================FIN TASK Peatón
+======================FIN TASK Peatón
+======================FIN TASK Taxi
+======================FIN TASK Tren
+======================INICIO TASK Coche
+======================INICIO TASK Peaton
+Coche 1 averiado por PINCHAZO
+======================INICIO TASK Coche
+======================INICIO TASK Coche
+======================INICIO TASK Coche
+======================INICIO TASK Coche
+======================INICIO TASK Taxi
+======================FIN TASK Coche
+======================FIN TASK Peatón
+======================FIN TASK Coche
+======================FIN TASK Coche
+======================FIN TASK Coche
+======================INICIO TASK Tren
+======================INICIO TASK Peaton
+======================INICIO TASK Peaton
+======================INICIO TASK Peaton
+======================INICIO TASK Peaton
+======================FIN TASK Coche
+======================FIN TASK Coche
+======================FIN TASK Peatón
+======================FIN TASK Peatón
+Coche 3 averiado por SIN_GASOLINA
+======================INICIO TASK Coche
+======================FIN TASK Taxi
+======================INICIO TASK Coche
+======================FIN TASK Tren
+======================INICIO TASK Taxi
+======================FIN TASK Peatón
+======================FIN TASK Peatón
+======================INICIO TASK Coche
+Coche 5 averiado por SIN_GASOLINA
+======================INICIO TASK Coche
+======================INICIO TASK Coche
+======================INICIO TASK Peaton
+======================INICIO TASK Peaton
+======================INICIO TASK Peaton

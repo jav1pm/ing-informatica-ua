@@ -1,0 +1,75 @@
+ 
+**************************************************************************
+**************************************************************************
+          PRACTICA STR: CONTROL DE TRAFICO
+**************************************************************************
+**************************************************************************
+ 
+Inicializando Entorno Gráfico...
+Entorno Gráfico Inicializado.
+======================INICIO TASK GeneraTaxis
+======================INICIO TASK GeneraPeatones
+======================INICIO TASK Taxi
+======================INICIO TASK GeneraCoches
+======================INICIO TASK Peaton
+======================INICIO TASK GeneraCoches
+======================INICIO TASK Peaton
+======================INICIO TASK Coche
+======================INICIO TASK GeneraTrenes
+======================INICIO TASK Tren
+======================INICIO TASK Peaton
+======================INICIO TASK Peaton
+======================INICIO TASK Coche
+Coche 1 averiado por SIN_GASOLINA
+======================INICIO TASK Coche
+Coche 1 reparado en carril 1
+======================INICIO TASK Coche
+======================FIN TASK Peatón
+======================FIN TASK Peatón
+======================INICIO TASK Coche
+======================INICIO TASK Coche
+======================FIN TASK Peatón
+======================FIN TASK Peatón
+======================INICIO TASK Coche
+======================INICIO TASK Coche
+======================INICIO TASK Peaton
+======================INICIO TASK Peaton
+======================INICIO TASK Peaton
+======================INICIO TASK Peaton
+======================FIN TASK Tren
+======================FIN TASK Taxi
+======================INICIO TASK Coche
+Coche 5 averiado por SIN_GASOLINA
+======================FIN TASK Coche
+======================INICIO TASK Coche
+======================FIN TASK Coche
+======================FIN TASK Coche
+======================INICIO TASK Taxi
+======================FIN TASK Coche
+Coche 5 reparado en carril 1
+======================INICIO TASK Coche
+======================INICIO TASK Coche
+======================INICIO TASK Coche
+======================FIN TASK Coche
+======================INICIO TASK Coche
+======================INICIO TASK Coche
+======================FIN TASK Coche
+======================FIN TASK Peatón
+======================FIN TASK Peatón
+======================FIN TASK Peatón
+======================FIN TASK Peatón
+======================FIN TASK Coche
+======================INICIO TASK Coche
+======================FIN TASK Coche
+======================INICIO TASK Tren
+======================INICIO TASK Peaton
+======================INICIO TASK Peaton
+======================INICIO TASK Peaton
+======================INICIO TASK Peaton
+======================INICIO TASK Peaton
+======================INICIO TASK Coche
+======================INICIO TASK Coche
+======================FIN TASK Peatón
+======================FIN TASK Peatón
+======================FIN TASK Coche
+======================INICIO TASK Coche

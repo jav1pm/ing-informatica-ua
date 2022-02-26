@@ -1,0 +1,78 @@
+======================================================================================
+			PASO 2 : Cuestiones Circulación de taxis
+======================================================================================
+
+1. ¿Para qué se utiliza el tipo tarea T_Tarea_Taxi? ¿Cuántas instancias de tareas se crean
+   de este tipo?
+
+	El tipo de tarea T_Tarea_Taxi es una tarea definida por el usuario 
+	que se encarga del comportamiento de un taxi, es decir, controlar las intancias taxis generadas.
+
+	Se crea una instancia para cada taxi que se genera y estas finalizan una vez el taxi
+	ha alcanzado el fin de la carretera o aparece alguan excepcion.
+
+
+2. ¿Por qué crees que Tarea_GeneraTaxis se crea como una tarea anónima?
+
+	Para que no encontremos conflictos entre varias tareas ya que utilizando una tarea anónima no podemos crear más de una.
+
+3. ¿Cuándo se crea cada tarea?
+
+	La tarea T_Tarea_Taxi se va creando en Tarea_GeneraTaxis cada vez que instancia un taxi.
+	La tarea Tarea_GeneraTaxis se crea al instanciar el paquete en el .adb
+
+4. Describe el comportamiento de la tarea Tarea_GeneraTaxis. ¿Para qué se utiliza la constante pkg_tipos.PERIODO_TAXI? 
+   ¿Para qué se utiliza el tipo de datos pkg_tipos.Ptr_T_RecordTaxi?
+
+	La constante PERIODO_TAXI se utiliza para retardar el tiempo de instanciación del siguiente
+	taxi y así evitar que la función Hay_Taxi esté comprobando constantemente.
+
+	El tipo de datos Ptr_T_RecordTaxi sirve para enviar los datos del taxi a la tarea que lo controla.
+	(velocidad, posición, si esta libre o ocupado, etc) Se utiliza un tipo access ya que 
+	no podemos pasarles tipos compuestos a las tareas. Deben ser tipos discretos o tipo 'access'.
+
+5. ¿Cómo se actualizan los campos (atributos) del tipo T_RecordTaxi?
+
+	Los atributos del tipo T_RecordTaxi se actualizan al llamar al paquete pkg_graficos
+	en la tarea T_Tarea_Taxi.
+
+6. Describe el comportamiento de una instancia de tarea del tipo T_Tarea_Taxi.
+
+	La tarea T_Tarea_Taxi se encarga de iniciar los datos del taxi, visualizarlo en el entorno
+	y llevar a cabo el comportamiento del taxi hasta la finalización de su trayecto.
+
+
+======================================================================================
+			PASO 3: Cuestiones aparición de peatones
+======================================================================================
+
+1. ¿Cuántos peatones aparecen simultáneamente cada vez?
+
+	Aparecen entre 1 y 5 (N_MAX_PEATONES) peatones.
+
+2. ¿Puede aparecer un grupo de peatones antes de que desaparezca el anterior?
+
+	No. La tarea principal tarda 15s (PERIODO_PEATONES) en crear otro grupo de peatones 
+	mientras que los peatones solo esperan 10s (TIEMPO_ESPERA_PEATON)
+
+3. ¿Qué colores pueden tener los peatones?
+
+	Cada peaton puede tener uno de los siguientes coleres definidios en el enum T_Color
+	TYPE T_Color IS (Blue, Yellow, Red, Green,Black, White, Grey);
+
+4. ¿A qué atributos de un peatón se le asigna un valor invocando al procedimiento
+   Actualiza_Atributo antes de crear la tarea correspondiente?
+
+	A un peatón se le asigna un id, el color y su posición.
+
+5. ¿Por qué no se utiliza el procedimiento Actualiza_Atributo para inicializar los atributos de un taxi 
+   antes de crear la tarea correspondiente?
+   
+	El procedimiento Actualiza_Atributo no se utiliza para inicializar los atributos de un taxi 
+	porque estos aparecen en el mismo lugar siempre. Sin embargo, con los peatones sí porque p.e; al crearlos
+	se les asigna un color, posición e id aleatorios y por tanto debemos actualizarlo.
+
+6. Describe el comportamiento de una instancia de tarea del tipo T_Tarea_Peaton
+
+	La tarea T_Tarea_Peaton espera 10s (PERIODO_PEATONES) y posteriormente desaparece el peaton.
+
