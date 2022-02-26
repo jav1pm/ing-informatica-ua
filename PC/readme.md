@@ -1,4 +1,4 @@
-# programación Concurrente
+# Programación Concurrente
 
 Repositorio para las prácticas de Programación Concurrente.
 
