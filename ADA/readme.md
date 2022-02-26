@@ -10,7 +10,7 @@ Repositorio para las prácticas de Análisis y Diseño de Algoritmos.
 - Algoritmos voraces & de vuelta atrás
 - Ramificación y poda
 - Lenguaje de programación empleado --> C++
-- 
+
 ## Autor
 
 - [@Javiiiis](https://www.github.com/Javiiiis)
