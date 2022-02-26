@@ -1,0 +1,26 @@
+1
+1
+examen
+1
+vacaciones
+3
+examenes
+3
+examen
+
+fecha,examen
+q
+3
+examen
+¿Cual es la fecha de la prueba del examen, oh gran sabio?
+Cuando        es el examen.
+    Dime cuando es el examen
+q
+3
+vacaciones
+Cuando son las vacaciones
+¿Las vacaciones empiezan el 1 de agosto?
+q
+b
+3
+q

@@ -1,0 +1,102 @@
+1- Train
+2- Test
+3- Report
+4- Configure
+q- Quit
+Option: 1- Add intent
+2- Delete intent
+3- Add example
+4- Delete example
+5- Add response
+b- Back to main menu
+Option: Intent name: 1- Add intent
+2- Delete intent
+3- Add example
+4- Delete example
+5- Add response
+b- Back to main menu
+Option: Intent name: New response: 1- Add intent
+2- Delete intent
+3- Add example
+4- Delete example
+5- Add response
+b- Back to main menu
+Option: Intent name: New example: New example: 1- Add intent
+2- Delete intent
+3- Add example
+4- Delete example
+5- Add response
+b- Back to main menu
+Option: 1- Train
+2- Test
+3- Report
+4- Configure
+q- Quit
+Option: Enter threshold: Enter algorithm: 1- Train
+2- Test
+3- Report
+4- Configure
+q- Quit
+Option: >> ¿Qué puedo hacer hoy por ti?
+<< Lo siento, pero no tengo respuesta para eso
+<< 1- Train
+2- Test
+3- Report
+4- Configure
+q- Quit
+Option: 1- Add intent
+2- Delete intent
+3- Add example
+4- Delete example
+5- Add response
+b- Back to main menu
+Option: Intent name: New example: New example: 1- Add intent
+2- Delete intent
+3- Add example
+4- Delete example
+5- Add response
+b- Back to main menu
+Option: 1- Train
+2- Test
+3- Report
+4- Configure
+q- Quit
+Option: Similarity: N-grams
+Threshold: 0.01
+Intent: Navidad
+Response: El 25 de diciembre
+Example 1: cu an do es Na vi da d
+Tokens 1: <cu> <an> <do> <e> <na> <vi> <da> <d> 
+Example 2: cua ndo es Nav i dad
+Tokens 2: <cua> <ndo> <e> <nav> <i> <dad> 
+Total intents: 1
+Total examples: 2
+Examples per intent: 2
+1- Train
+2- Test
+3- Report
+4- Configure
+q- Quit
+Option: >> Oh, gran prócer de los bits, ¿cuál es tu deseo?
+<< >> El 25 de diciembre
+<< Lo siento, pero no tengo respuesta para eso
+<< >> El 25 de diciembre
+<< Lo siento, pero no tengo respuesta para eso
+<< 1- Train
+2- Test
+3- Report
+4- Configure
+q- Quit
+Option: Enter threshold: Enter algorithm: 1- Train
+2- Test
+3- Report
+4- Configure
+q- Quit
+Option: >> Pregunta sin miedo
+<< Lo siento, pero no tengo respuesta para eso
+<< 1- Train
+2- Test
+3- Report
+4- Configure
+q- Quit
+Option: 

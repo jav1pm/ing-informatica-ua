@@ -1,0 +1,86 @@
+1- Train
+2- Test
+3- Report
+4- Configure
+q- Quit
+Option: 1- Add intent
+2- Delete intent
+3- Add example
+4- Delete example
+5- Add response
+b- Back to main menu
+Option: Intent name: 1- Add intent
+2- Delete intent
+3- Add example
+4- Delete example
+5- Add response
+b- Back to main menu
+Option: Intent name: 1- Add intent
+2- Delete intent
+3- Add example
+4- Delete example
+5- Add response
+b- Back to main menu
+Option: Intent name: ERROR: wrong intent name
+1- Add intent
+2- Delete intent
+3- Add example
+4- Delete example
+5- Add response
+b- Back to main menu
+Option: Intent name: New example: New example: 1- Add intent
+2- Delete intent
+3- Add example
+4- Delete example
+5- Add response
+b- Back to main menu
+Option: Intent name: New example: New example: New example: 1- Add intent
+2- Delete intent
+3- Add example
+4- Delete example
+5- Add response
+b- Back to main menu
+Option: Intent name: New example: ERROR: empty strings are not permited
+New example: New example: ERROR: empty strings are not permited
+New example: New example: New example: New example: New example: 1- Add intent
+2- Delete intent
+3- Add example
+4- Delete example
+5- Add response
+b- Back to main menu
+Option: 1- Train
+2- Test
+3- Report
+4- Configure
+q- Quit
+Option: Similarity: Jaccard
+Threshold: 0.25
+Intent: examen
+Response: 
+Example 1: fecha,examen
+Tokens 1: <fechaexamen> 
+Example 2: ¿Cual es la fecha de la prueba del examen, oh gran sabio?
+Tokens 2: <cual> <e> <la> <fecha> <de> <la> <prueba> <del> <examen> <oh> <gran> <sabio> 
+Example 3: Cuando es el examen.
+Tokens 3: <cuando> <e> <el> <examen> 
+Intent: vacaciones
+Response: 
+Example 4: sssss
+Tokens 4: <ssss> 
+Example 5: Cuando son las vacaciones
+Tokens 5: <cuando> <son> <la> <vacacione> 
+Example 6: ¿Las vacaciones empiezan el 1 de agosto?
+Tokens 6: <la> <vacacione> <empiezan> <el> <1> <de> <agosto> 
+Example 7: Quiero mis vacacionesss
+Tokens 7: <quiero> <mi> <vacacioness> 
+Example 8: Necesito unas vacaciones-vacaciones
+Tokens 8: <necesito> <una> <vacacionesvacacione> 
+Total intents: 2
+Total examples: 8
+Examples per intent: 4
+1- Train
+2- Test
+3- Report
+4- Configure
+q- Quit
+Option: 

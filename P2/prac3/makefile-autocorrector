@@ -1,0 +1,46 @@
+all: prac3 test1
+
+CORRDIR=..
+CXXTESTGEN=$(CORRDIR)/test/cxxtestgen.pl
+CXXTESTSUITE=$(CORRDIR)/test/p2TestSuiteAC.h
+
+TESTDIR=$(CORRDIR)/test
+
+OPTS=-Wall -g -std=c++11
+OBJS=Chatbot.o Intent.o Example.o Util.o
+CC=g++
+
+prac3: $(OBJS) prac3.o
+	$(CC) $(OPTS) $(OBJS) converter.o prac3.o -o prac3
+
+prac3.o: prac3.cc Chatbot.h Intent.h Util.h
+	$(CC) $(OPTS) -c prac3.cc
+
+Chatbot.o: Chatbot.cc Chatbot.h Intent.h Example.h Util.h
+	$(CC) $(OPTS) -c Chatbot.cc
+
+Intent.o: Intent.cc Intent.h Example.h Util.h
+	$(CC) $(OPTS) -c Intent.cc
+
+Example.o: Example.cc Example.h Util.h
+	$(CC) $(OPTS) -c Example.cc
+
+Util.o: Util.cc Util.h
+	$(CC) $(OPTS) -c Util.cc
+
+test1:
+	@echo
+	@echo "Compilando pruebas unitarias"
+	@rm -f ../p2TestRunner
+	@env PERL_BADLANG=0 $(CXXTESTGEN) --error-printer -o ../p2TestRunner.cc $(CXXTESTSUITE)
+	g++ -std=c++11 -g -I../test -I../src -o ../p2TestRunner ../p2TestRunner.cc $(OBJS) converter.o
+	@rm -f ../p2TestRunner.cc
+
+clean:
+	rm -rf $(OBJS)
+	rm -rf prac3.o
+	rm -rf prac3
+	rm -rf p2TestRunner*
+	rm -rf salida-obtenida/*
+	rm -rf mata
+	rm -rf comparefiles

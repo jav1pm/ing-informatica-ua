@@ -1,0 +1,26 @@
+Programación 2 - Autocorrector práctica 3
+=========================================
+
+Para pasar el autocorrector, hay que copiar todos los ficheros de la
+práctica (.cc y .h) y el fichero prac3.cc en el directorio src y ejecutar
+desde terminal:
+
+./autocorrectorP2p3.sh
+
+Si se ejecuta el corrector con algún argumento, como p.ej.:
+
+./autocorrectorP2p3.sh algo
+
+solamente se probarán las pruebas unitarias, no las pruebas de
+entrada/salida. Esta característica puede venir bien para depurar más rápido
+las pruebas unitarias una vez las pruebas de entrada/salida funcionen bien.
+
+-----------------------------------------------------------
+
+AVISO IMPORTANTE SOBRE LAS PRUEBAS UNITARIAS: hay una prueba unitaria por
+cada clase, en la que se prueban todos los métodos públicos que se indican
+en el enunciado de la práctica.
+
+Si falta algún método del diagrama o no tiene exactamente los mismos
+parámetros, no será posible compilar las pruebas unitarias y por tanto la
+nota de la práctica será 0.

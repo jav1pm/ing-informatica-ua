@@ -1,0 +1,43 @@
+1
+1
+vacaciones navidad
+5
+vacaciones navidad
+El 24 de diciembre
+3
+vacaciones navidad
+¿Cuándo empiezan las vacaciones de Navidad?
+Quiero saber cuándo paramos en Navidad
+Dime la fecha de inicio de las vacaciones navideñas
+¿Cuándo me voy en Navidad?
+q
+1
+cordial
+5
+cordial
+No tan bien como tú
+3
+cordial
+¿Qué tal estás, Megabot?
+¿Estás bien?
+q
+b
+2
+¿Cómo estás hoy?
+Cuándo son mis vacaciones
+Chiripitiflaútico
+q
+1
+2
+cordial
+Y
+2
+vacaciones navidad
+Y
+b
+2
+¿Cómo estás hoy?
+Cuándo son mis vacaciones
+Chiripitiflaútico
+q
+q

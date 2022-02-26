@@ -1,0 +1,35 @@
+1
+1
+vacaciones navidad
+5
+vacaciones navidad
+El 23 de diciembre
+3
+vacaciones navidad
+¿Cuándo empiezan las vacaciones de Navidad?
+Quiero saber cuándo paramos en Navidad
+Dime la fecha de inicio de las vacaciones navideñas
+q
+1
+vacaciones verano
+5
+vacaciones verano
+El 19 de Junio
+3
+vacaciones verano
+Cuando empiezan las vacaciones de verano?
+Qué día empiezan este año las vacaciones?
+En qué fecha empiezan las vacaciones de estío?
+q
+b
+4
+0.25
+ng
+2
+vacaciones
+empiezan vacaciones
+vacaciones verano
+vacaciones Navidad
+fecha
+q
+q

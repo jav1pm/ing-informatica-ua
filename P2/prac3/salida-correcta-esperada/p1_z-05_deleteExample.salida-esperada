@@ -1,0 +1,135 @@
+1- Train
+2- Test
+3- Report
+4- Configure
+q- Quit
+Option: 1- Add intent
+2- Delete intent
+3- Add example
+4- Delete example
+5- Add response
+b- Back to main menu
+Option: Intent name: 1- Add intent
+2- Delete intent
+3- Add example
+4- Delete example
+5- Add response
+b- Back to main menu
+Option: Intent name: New example: New example: New example: 1- Add intent
+2- Delete intent
+3- Add example
+4- Delete example
+5- Add response
+b- Back to main menu
+Option: Example id: ERROR: wrong example id
+1- Add intent
+2- Delete intent
+3- Add example
+4- Delete example
+5- Add response
+b- Back to main menu
+Option: Example id: ERROR: wrong example id
+1- Add intent
+2- Delete intent
+3- Add example
+4- Delete example
+5- Add response
+b- Back to main menu
+Option: Example id: ERROR: wrong example id
+1- Add intent
+2- Delete intent
+3- Add example
+4- Delete example
+5- Add response
+b- Back to main menu
+Option: Example id: 1- Add intent
+2- Delete intent
+3- Add example
+4- Delete example
+5- Add response
+b- Back to main menu
+Option: 1- Train
+2- Test
+3- Report
+4- Configure
+q- Quit
+Option: Similarity: Jaccard
+Threshold: 0.25
+Intent: examen
+Response: 
+Example 2: Cual es la fecha del examen
+Tokens 2: <cual> <e> <la> <fecha> <del> <examen> 
+Total intents: 1
+Total examples: 1
+Examples per intent: 1
+1- Train
+2- Test
+3- Report
+4- Configure
+q- Quit
+Option: 1- Add intent
+2- Delete intent
+3- Add example
+4- Delete example
+5- Add response
+b- Back to main menu
+Option: Example id: ERROR: wrong example id
+1- Add intent
+2- Delete intent
+3- Add example
+4- Delete example
+5- Add response
+b- Back to main menu
+Option: 1- Train
+2- Test
+3- Report
+4- Configure
+q- Quit
+Option: Similarity: Jaccard
+Threshold: 0.25
+Intent: examen
+Response: 
+Example 2: Cual es la fecha del examen
+Tokens 2: <cual> <e> <la> <fecha> <del> <examen> 
+Total intents: 1
+Total examples: 1
+Examples per intent: 1
+1- Train
+2- Test
+3- Report
+4- Configure
+q- Quit
+Option: 1- Add intent
+2- Delete intent
+3- Add example
+4- Delete example
+5- Add response
+b- Back to main menu
+Option: Intent name: New example: New example: 1- Add intent
+2- Delete intent
+3- Add example
+4- Delete example
+5- Add response
+b- Back to main menu
+Option: 1- Train
+2- Test
+3- Report
+4- Configure
+q- Quit
+Option: Similarity: Jaccard
+Threshold: 0.25
+Intent: examen
+Response: 
+Example 2: Cual es la fecha del examen
+Tokens 2: <cual> <e> <la> <fecha> <del> <examen> 
+Example 3: Dime cuando es el examen
+Tokens 3: <dime> <cuando> <e> <el> <examen> 
+Total intents: 1
+Total examples: 2
+Examples per intent: 2
+1- Train
+2- Test
+3- Report
+4- Configure
+q- Quit
+Option: 

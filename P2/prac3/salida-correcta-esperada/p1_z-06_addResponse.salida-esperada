@@ -1,0 +1,61 @@
+1- Train
+2- Test
+3- Report
+4- Configure
+q- Quit
+Option: 1- Add intent
+2- Delete intent
+3- Add example
+4- Delete example
+5- Add response
+b- Back to main menu
+Option: Intent name: 1- Add intent
+2- Delete intent
+3- Add example
+4- Delete example
+5- Add response
+b- Back to main menu
+Option: Intent name: ERROR: wrong intent name
+1- Add intent
+2- Delete intent
+3- Add example
+4- Delete example
+5- Add response
+b- Back to main menu
+Option: Intent name: New response: 1- Add intent
+2- Delete intent
+3- Add example
+4- Delete example
+5- Add response
+b- Back to main menu
+Option: Intent name: ERROR: wrong intent name
+1- Add intent
+2- Delete intent
+3- Add example
+4- Delete example
+5- Add response
+b- Back to main menu
+Option: Intent name: New response: 1- Add intent
+2- Delete intent
+3- Add example
+4- Delete example
+5- Add response
+b- Back to main menu
+Option: 1- Train
+2- Test
+3- Report
+4- Configure
+q- Quit
+Option: Similarity: Jaccard
+Threshold: 0.25
+Intent: examenes finales
+Response: El 3 de junio de 2020
+Total intents: 1
+Total examples: 0
+Examples per intent: 0
+1- Train
+2- Test
+3- Report
+4- Configure
+q- Quit
+Option: 

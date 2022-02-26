@@ -1,0 +1,91 @@
+1- Train
+2- Test
+3- Report
+4- Configure
+q- Quit
+Option: 1- Add intent
+2- Delete intent
+3- Add example
+4- Delete example
+5- Add response
+b- Back to main menu
+Option: Intent name: 1- Add intent
+2- Delete intent
+3- Add example
+4- Delete example
+5- Add response
+b- Back to main menu
+Option: Intent name: New response: 1- Add intent
+2- Delete intent
+3- Add example
+4- Delete example
+5- Add response
+b- Back to main menu
+Option: Intent name: New example: New example: New example: New example: 1- Add intent
+2- Delete intent
+3- Add example
+4- Delete example
+5- Add response
+b- Back to main menu
+Option: Intent name: 1- Add intent
+2- Delete intent
+3- Add example
+4- Delete example
+5- Add response
+b- Back to main menu
+Option: Intent name: New response: 1- Add intent
+2- Delete intent
+3- Add example
+4- Delete example
+5- Add response
+b- Back to main menu
+Option: Intent name: New example: New example: New example: 1- Add intent
+2- Delete intent
+3- Add example
+4- Delete example
+5- Add response
+b- Back to main menu
+Option: 1- Train
+2- Test
+3- Report
+4- Configure
+q- Quit
+Option: Enter threshold: Enter algorithm: 1- Train
+2- Test
+3- Report
+4- Configure
+q- Quit
+Option: Similarity: N-grams
+Threshold: 0.4
+Intent: vacaciones navidad
+Response: El 24 de diciembre
+Example 1: ¿Cuándo empiezan las vacaciones de Navidad?
+Tokens 1: <cuando> <empiezan> <la> <vacacione> <de> <navidad> 
+Example 2: Quiero saber cuándo paramos en Navidad
+Tokens 2: <quiero> <saber> <cuando> <paramo> <en> <navidad> 
+Example 3: Dime la fecha de inicio de las vacaciones navideñas
+Tokens 3: <dime> <la> <fecha> <de> <inicio> <de> <la> <vacacione> <navidena> 
+Intent: cordial
+Response: No tan bien como tú
+Example 4: ¿Qué tal estás, Megabot?
+Tokens 4: <que> <tal> <esta> <megabot> 
+Example 5: ¿Estás bien?
+Tokens 5: <esta> <bien> 
+Total intents: 2
+Total examples: 5
+Examples per intent: 2.5
+1- Train
+2- Test
+3- Report
+4- Configure
+q- Quit
+Option: >> ¿Qué puedo hacer hoy por ti?
+<< Lo siento, pero no tengo respuesta para eso
+<< >> El 24 de diciembre
+<< Lo siento, pero no tengo respuesta para eso
+<< 1- Train
+2- Test
+3- Report
+4- Configure
+q- Quit
+Option: 

@@ -1,0 +1,38 @@
+1- Train
+2- Test
+3- Report
+4- Configure
+q- Quit
+Option: Enter threshold: ERROR: the threshold value must be between 0 and 1
+Enter algorithm: ERROR: valid values are "jc" (Jaccard) and "ng" (n-grams)
+1- Train
+2- Test
+3- Report
+4- Configure
+q- Quit
+Option: Similarity: Jaccard
+Threshold: 0.25
+Total intents: 0
+Total examples: 0
+Examples per intent: 0
+1- Train
+2- Test
+3- Report
+4- Configure
+q- Quit
+Option: Enter threshold: Enter algorithm: 1- Train
+2- Test
+3- Report
+4- Configure
+q- Quit
+Option: Similarity: N-grams
+Threshold: 0.9
+Total intents: 0
+Total examples: 0
+Examples per intent: 0
+1- Train
+2- Test
+3- Report
+4- Configure
+q- Quit
+Option: 

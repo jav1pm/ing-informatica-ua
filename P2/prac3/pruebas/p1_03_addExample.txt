@@ -1,0 +1,15 @@
+3
+1
+1
+examen
+3
+examenes
+3
+examen
+Cuando es el examen
+Cuando son los examenes
+Hola, ¿puedes decirme cuando es el examen?
+q
+b
+3
+q

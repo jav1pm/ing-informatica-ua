@@ -1,0 +1,78 @@
+1- Train
+2- Test
+3- Report
+4- Configure
+q- Quit
+Option: 1- Add intent
+2- Delete intent
+3- Add example
+4- Delete example
+5- Add response
+b- Back to main menu
+Option: Intent name: 1- Add intent
+2- Delete intent
+3- Add example
+4- Delete example
+5- Add response
+b- Back to main menu
+Option: Intent name: 1- Add intent
+2- Delete intent
+3- Add example
+4- Delete example
+5- Add response
+b- Back to main menu
+Option: Intent name: New response: 1- Add intent
+2- Delete intent
+3- Add example
+4- Delete example
+5- Add response
+b- Back to main menu
+Option: Intent name: New example: New example: 1- Add intent
+2- Delete intent
+3- Add example
+4- Delete example
+5- Add response
+b- Back to main menu
+Option: Intent name: New response: 1- Add intent
+2- Delete intent
+3- Add example
+4- Delete example
+5- Add response
+b- Back to main menu
+Option: Intent name: New example: New example: 1- Add intent
+2- Delete intent
+3- Add example
+4- Delete example
+5- Add response
+b- Back to main menu
+Option: 1- Train
+2- Test
+3- Report
+4- Configure
+q- Quit
+Option: Similarity: Jaccard
+Threshold: 0.25
+Intent: examen de junio
+Response: El 3 de junio de 2020
+Example 2: ¿Cuándo es el examen?
+Tokens 2: <cuando> <e> <el> <examen> 
+Intent: examen de julio
+Response: El 2 de julio de 2020
+Example 1: ¿Cuándo es el examen?
+Tokens 1: <cuando> <e> <el> <examen> 
+Total intents: 2
+Total examples: 2
+Examples per intent: 1
+1- Train
+2- Test
+3- Report
+4- Configure
+q- Quit
+Option: >> ¿Qué puedo hacer hoy por ti?
+<< >> El 3 de junio de 2020
+<< 1- Train
+2- Test
+3- Report
+4- Configure
+q- Quit
+Option: 

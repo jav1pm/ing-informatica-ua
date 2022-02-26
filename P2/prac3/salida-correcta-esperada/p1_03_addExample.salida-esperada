@@ -1,0 +1,64 @@
+1- Train
+2- Test
+3- Report
+4- Configure
+q- Quit
+Option: Similarity: Jaccard
+Threshold: 0.25
+Total intents: 0
+Total examples: 0
+Examples per intent: 0
+1- Train
+2- Test
+3- Report
+4- Configure
+q- Quit
+Option: 1- Add intent
+2- Delete intent
+3- Add example
+4- Delete example
+5- Add response
+b- Back to main menu
+Option: Intent name: 1- Add intent
+2- Delete intent
+3- Add example
+4- Delete example
+5- Add response
+b- Back to main menu
+Option: Intent name: ERROR: wrong intent name
+1- Add intent
+2- Delete intent
+3- Add example
+4- Delete example
+5- Add response
+b- Back to main menu
+Option: Intent name: New example: New example: New example: New example: 1- Add intent
+2- Delete intent
+3- Add example
+4- Delete example
+5- Add response
+b- Back to main menu
+Option: 1- Train
+2- Test
+3- Report
+4- Configure
+q- Quit
+Option: Similarity: Jaccard
+Threshold: 0.25
+Intent: examen
+Response: 
+Example 1: Cuando es el examen
+Tokens 1: <cuando> <e> <el> <examen> 
+Example 2: Cuando son los examenes
+Tokens 2: <cuando> <son> <lo> <examene> 
+Example 3: Hola, ¿puedes decirme cuando es el examen?
+Tokens 3: <hola> <puede> <decirme> <cuando> <e> <el> <examen> 
+Total intents: 1
+Total examples: 3
+Examples per intent: 3
+1- Train
+2- Test
+3- Report
+4- Configure
+q- Quit
+Option: 

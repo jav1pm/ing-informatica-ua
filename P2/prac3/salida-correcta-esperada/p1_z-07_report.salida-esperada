@@ -1,0 +1,339 @@
+1- Train
+2- Test
+3- Report
+4- Configure
+q- Quit
+Option: Similarity: Jaccard
+Threshold: 0.25
+Total intents: 0
+Total examples: 0
+Examples per intent: 0
+1- Train
+2- Test
+3- Report
+4- Configure
+q- Quit
+Option: 1- Add intent
+2- Delete intent
+3- Add example
+4- Delete example
+5- Add response
+b- Back to main menu
+Option: Intent name: 1- Add intent
+2- Delete intent
+3- Add example
+4- Delete example
+5- Add response
+b- Back to main menu
+Option: 1- Train
+2- Test
+3- Report
+4- Configure
+q- Quit
+Option: Similarity: Jaccard
+Threshold: 0.25
+Intent: vacaciones navidad
+Response: 
+Total intents: 1
+Total examples: 0
+Examples per intent: 0
+1- Train
+2- Test
+3- Report
+4- Configure
+q- Quit
+Option: 1- Add intent
+2- Delete intent
+3- Add example
+4- Delete example
+5- Add response
+b- Back to main menu
+Option: Intent name: New response: 1- Add intent
+2- Delete intent
+3- Add example
+4- Delete example
+5- Add response
+b- Back to main menu
+Option: 1- Train
+2- Test
+3- Report
+4- Configure
+q- Quit
+Option: Similarity: Jaccard
+Threshold: 0.25
+Intent: vacaciones navidad
+Response: El 24 de diciembre
+Total intents: 1
+Total examples: 0
+Examples per intent: 0
+1- Train
+2- Test
+3- Report
+4- Configure
+q- Quit
+Option: 1- Add intent
+2- Delete intent
+3- Add example
+4- Delete example
+5- Add response
+b- Back to main menu
+Option: Intent name: New example: New example: 1- Add intent
+2- Delete intent
+3- Add example
+4- Delete example
+5- Add response
+b- Back to main menu
+Option: 1- Train
+2- Test
+3- Report
+4- Configure
+q- Quit
+Option: Similarity: Jaccard
+Threshold: 0.25
+Intent: vacaciones navidad
+Response: El 24 de diciembre
+Example 1: ¿Cuándo empiezan las vacaciones de Navidad?
+Tokens 1: <cuando> <empiezan> <la> <vacacione> <de> <navidad> 
+Total intents: 1
+Total examples: 1
+Examples per intent: 1
+1- Train
+2- Test
+3- Report
+4- Configure
+q- Quit
+Option: 1- Add intent
+2- Delete intent
+3- Add example
+4- Delete example
+5- Add response
+b- Back to main menu
+Option: Intent name: 1- Add intent
+2- Delete intent
+3- Add example
+4- Delete example
+5- Add response
+b- Back to main menu
+Option: 1- Train
+2- Test
+3- Report
+4- Configure
+q- Quit
+Option: Similarity: Jaccard
+Threshold: 0.25
+Intent: vacaciones navidad
+Response: El 24 de diciembre
+Example 1: ¿Cuándo empiezan las vacaciones de Navidad?
+Tokens 1: <cuando> <empiezan> <la> <vacacione> <de> <navidad> 
+Intent: cordial
+Response: 
+Total intents: 2
+Total examples: 1
+Examples per intent: 0.5
+1- Train
+2- Test
+3- Report
+4- Configure
+q- Quit
+Option: 1- Add intent
+2- Delete intent
+3- Add example
+4- Delete example
+5- Add response
+b- Back to main menu
+Option: Intent name: New response: 1- Add intent
+2- Delete intent
+3- Add example
+4- Delete example
+5- Add response
+b- Back to main menu
+Option: 1- Train
+2- Test
+3- Report
+4- Configure
+q- Quit
+Option: Similarity: Jaccard
+Threshold: 0.25
+Intent: vacaciones navidad
+Response: El 24 de diciembre
+Example 1: ¿Cuándo empiezan las vacaciones de Navidad?
+Tokens 1: <cuando> <empiezan> <la> <vacacione> <de> <navidad> 
+Intent: cordial
+Response: No tan bien como tú
+Total intents: 2
+Total examples: 1
+Examples per intent: 0.5
+1- Train
+2- Test
+3- Report
+4- Configure
+q- Quit
+Option: 1- Add intent
+2- Delete intent
+3- Add example
+4- Delete example
+5- Add response
+b- Back to main menu
+Option: Intent name: New example: New example: New example: 1- Add intent
+2- Delete intent
+3- Add example
+4- Delete example
+5- Add response
+b- Back to main menu
+Option: 1- Train
+2- Test
+3- Report
+4- Configure
+q- Quit
+Option: Similarity: Jaccard
+Threshold: 0.25
+Intent: vacaciones navidad
+Response: El 24 de diciembre
+Example 1: ¿Cuándo empiezan las vacaciones de Navidad?
+Tokens 1: <cuando> <empiezan> <la> <vacacione> <de> <navidad> 
+Intent: cordial
+Response: No tan bien como tú
+Example 2: ¿Qué tal estás, Megabot?
+Tokens 2: <que> <tal> <esta> <megabot> 
+Example 3: ¿Estás bien?
+Tokens 3: <esta> <bien> 
+Total intents: 2
+Total examples: 3
+Examples per intent: 1.5
+1- Train
+2- Test
+3- Report
+4- Configure
+q- Quit
+Option: 1- Add intent
+2- Delete intent
+3- Add example
+4- Delete example
+5- Add response
+b- Back to main menu
+Option: Intent name: New example: New example: New example: New example: 1- Add intent
+2- Delete intent
+3- Add example
+4- Delete example
+5- Add response
+b- Back to main menu
+Option: 1- Train
+2- Test
+3- Report
+4- Configure
+q- Quit
+Option: Similarity: Jaccard
+Threshold: 0.25
+Intent: vacaciones navidad
+Response: El 24 de diciembre
+Example 1: ¿Cuándo empiezan las vacaciones de Navidad?
+Tokens 1: <cuando> <empiezan> <la> <vacacione> <de> <navidad> 
+Example 4: Quiero saber cuándo paramos en Navidad
+Tokens 4: <quiero> <saber> <cuando> <paramo> <en> <navidad> 
+Example 5: Dime la fecha de inicio de las vacaciones navideñas
+Tokens 5: <dime> <la> <fecha> <de> <inicio> <de> <la> <vacacione> <navidena> 
+Example 6: ¿Cuándo me voy en Navidad?
+Tokens 6: <cuando> <me> <voy> <en> <navidad> 
+Intent: cordial
+Response: No tan bien como tú
+Example 2: ¿Qué tal estás, Megabot?
+Tokens 2: <que> <tal> <esta> <megabot> 
+Example 3: ¿Estás bien?
+Tokens 3: <esta> <bien> 
+Total intents: 2
+Total examples: 6
+Examples per intent: 3
+1- Train
+2- Test
+3- Report
+4- Configure
+q- Quit
+Option: 1- Add intent
+2- Delete intent
+3- Add example
+4- Delete example
+5- Add response
+b- Back to main menu
+Option: Intent name: New example: New example: 1- Add intent
+2- Delete intent
+3- Add example
+4- Delete example
+5- Add response
+b- Back to main menu
+Option: 1- Train
+2- Test
+3- Report
+4- Configure
+q- Quit
+Option: Similarity: Jaccard
+Threshold: 0.25
+Intent: vacaciones navidad
+Response: El 24 de diciembre
+Example 1: ¿Cuándo empiezan las vacaciones de Navidad?
+Tokens 1: <cuando> <empiezan> <la> <vacacione> <de> <navidad> 
+Example 4: Quiero saber cuándo paramos en Navidad
+Tokens 4: <quiero> <saber> <cuando> <paramo> <en> <navidad> 
+Example 5: Dime la fecha de inicio de las vacaciones navideñas
+Tokens 5: <dime> <la> <fecha> <de> <inicio> <de> <la> <vacacione> <navidena> 
+Example 6: ¿Cuándo me voy en Navidad?
+Tokens 6: <cuando> <me> <voy> <en> <navidad> 
+Intent: cordial
+Response: No tan bien como tú
+Example 2: ¿Qué tal estás, Megabot?
+Tokens 2: <que> <tal> <esta> <megabot> 
+Example 3: ¿Estás bien?
+Tokens 3: <esta> <bien> 
+Example 7: ¿Estás bien?
+Tokens 7: <esta> <bien> 
+Total intents: 2
+Total examples: 7
+Examples per intent: 3.5
+1- Train
+2- Test
+3- Report
+4- Configure
+q- Quit
+Option: 1- Add intent
+2- Delete intent
+3- Add example
+4- Delete example
+5- Add response
+b- Back to main menu
+Option: Example id: 1- Add intent
+2- Delete intent
+3- Add example
+4- Delete example
+5- Add response
+b- Back to main menu
+Option: 1- Train
+2- Test
+3- Report
+4- Configure
+q- Quit
+Option: Similarity: Jaccard
+Threshold: 0.25
+Intent: vacaciones navidad
+Response: El 24 de diciembre
+Example 1: ¿Cuándo empiezan las vacaciones de Navidad?
+Tokens 1: <cuando> <empiezan> <la> <vacacione> <de> <navidad> 
+Example 4: Quiero saber cuándo paramos en Navidad
+Tokens 4: <quiero> <saber> <cuando> <paramo> <en> <navidad> 
+Example 6: ¿Cuándo me voy en Navidad?
+Tokens 6: <cuando> <me> <voy> <en> <navidad> 
+Intent: cordial
+Response: No tan bien como tú
+Example 2: ¿Qué tal estás, Megabot?
+Tokens 2: <que> <tal> <esta> <megabot> 
+Example 3: ¿Estás bien?
+Tokens 3: <esta> <bien> 
+Example 7: ¿Estás bien?
+Tokens 7: <esta> <bien> 
+Total intents: 2
+Total examples: 6
+Examples per intent: 3
+1- Train
+2- Test
+3- Report
+4- Configure
+q- Quit
+Option: 
