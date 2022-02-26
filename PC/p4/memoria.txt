@@ -1,0 +1,84 @@
+Francisco Javier Pérez Martínez
+
+======================================================================================
+            PRACTICA 4: Algoritmos con espera ocupada (parte 2)
+======================================================================================
+
+··························································
+Prueba de los algoritmos ejecutados con el comando taskset
+··························································
+
+1.  Algoritmo de Dekker
+
+    ** Implementado con hilos POSIX en el fichero Dekker.c **
+
+    Tras varias ejecuciones probadas el algoritmo funciona correctamente y devuelve el resultado esperado ya que
+    asegura la exclusión mutua, cumple con la condición de progreso en la ejecución y
+    satisface la limitación de espera. 
+
+    El único problema es que para más de dos procesos resulta complejo y dificil de seguir.
+
+
+2.  Algoritmo de Peterson
+
+    ** Implementado con hilos Python en el fichero Peterson.py **
+
+    Al igual que el algoritmo anterior, cumple con las propiedas mencionadas y devuelve el resultado esperado.
+    La única diferencia con el algoritmo anterior es que Peterson obtuvo un algoritmo más simple,
+    fácil de entender y que ahorra unos ciclos de procesador. Además, las variables y la idea fundamental son las mismas,
+    solo cambia el orden de las instrucciones.
+
+
+3.  Algoritmo de Hyman
+
+    ** Implementado con hilos Java en el fichero Hyman.java **
+
+    Tras varias ejecuciones el programa devuelve el resultado esperado, pero el incremento de la variable "n" solo se produce en un hilo debido
+    al lenguage usado, Java. Sin embargo, si no ejecutamos el código con el comando taskset si que se ejecutan ambos hilos.
+    Con takset también es posible que se ejecuten ambos hilos: taskset -c 0-1 java Hyman.java, en dicho comando se contemplan ambos núcleos.
+
+
+4.  Algoritmo Lamport
+
+    ** Implementado con hilos Python en el fichero Lamport.py **
+
+    A diferencia de los algoritmos anteriores, este algoritmo da solución para N procesos siendo de 4 hilos el codigo implementado.
+    Tras varias ejecuciones el programa devuelve el resultado esperado cumpliendo los tres criterios fundamentales de requisitos para exclusión mutua:
+    Asegura la exclusión mutua, el progreso de ejecución y no hay espera ilimitada.
+
+
+
+··························
+Tema 3 - Cuestiones breves
+··························
+
+1.  Indicar las condiciones exigidas por los protocolos de E/S a una correcta solución al problema de la exclusión mutua.
+
+    Exclusión mutua: Dos procesos no pueden acceder a la vez a la sección crítica.
+    Espera limitada: Asegurar que ningún proceso espere de forma indefinida para entrar en la sección crítica.
+    Progreso en la ejecución: Asegurar que un proceso pueda ejecutar su sección crítica si esta está libre.
+
+2.  Formular varios problemas donde se requieran condiciones de sincronización
+
+    Los problemas del lector, gestor e impresor mencionados en teoria.
+    Otro problema sería el del productor y consumidor:
+
+    Uno o más productores generan cierto tipo de datos y los sitúan en una zona 
+    de memoria o buffer. Un único consumidor saca elementos del buffer de 
+    uno en uno. Se debe impedir la superposición de operaciones sobre 
+    el buffer.
+    
+3.  ¿A qué hace referencia el término espera ocupada?
+
+    La espera ocupada hace referencia a cuando un proceso verifica constantemente una condición / variable sin hacer trabajo útil
+    produciendose un consumo indeseable en la CPU.
+
+4.  ¿Cuál es el principal inconveniente de las soluciones basadas en espera ocupada?
+
+    El principal inconveniente de las soluciones basadas en espera ocupada es que los procesos ocupan
+    el procesador incluso aunque no puedan avanzar.
+
+5.  Explicar por qué el algoritmo de Lamport no presenta espera ilimitada
+
+    El algoritmo de Lamport no presenta espera ilimitada ya que si un proceso sale de la sección crítica y 
+    pretende volver a entrar cogerá un número mayor de los que ya están esperando, por lo que esos entrarán antes ya que se sigue un orden.

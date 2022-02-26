@@ -1,0 +1,43 @@
+Francisco Javier Pérez Martínez
+
+==============================================
+            PRACTICA 2: CUESTIONES
+==============================================
+
+·················
+Ejercicio 1: JAVA
+·················
+
+1.  Código implementado en ThreadConHerencia.java, esté código ejecuta 3 hilos, los 2 creados a y b que realizan una impresión de una palabra dada 10 veces
+    y el hilo principal. El orden en el que se van ejecutando los hilos es arbitrario.
+
+2.  Código implementado en ThreadConRunnable.java, los resultados obtenidos siguen siendo los mismos que en el anterior apartado.
+
+3.  Al llamar al método start del hilo, comenzará ejecutarse su método run. Crear un hilo heredando de Thread tiene el problema de que al no haber 
+    herencia múltiple en Java, si heredamos de Thread no podremos heredar de ninguna otra clase, y por lo tanto un hilo no podría heredar de ninguna otra clase.
+    Este problema desaparece si utilizamos la interfaz Runnable para crear el hilo, ya que una clase puede implementar varias interfaces.
+
+4.  Utilizando la función setPriority() con prioridad 1 al hilo1 le estamos diciendo que su prioridad sea menor a la del hilo2,
+    por lo que en teoría el hilo2 se ejecutaría antes. Sin embargo, realizando varias ejecuciones se puede apreciar que no se cumple en su totalidad, 
+    esto es debido a que la gestión de prioridades de nuestra maquina virtual de java no funciona correctamente.
+
+···················
+Ejercicio 2: PYTHON
+···················
+
+Código implementado en hilos_python.py
+
+Tras varias ejecuciones se observan resultados incorrectos debido a que existe un problema de sincronización al intentar acceder al mismo recurso (variable global).
+
+·················
+Ejercicio 3: RUST
+·················
+
+Código implementado en hilos_rust.rs
+
+Para trabajar con hilos en Rust podemos recurrir a una combinación de Mutex y Arc[1]. Tras varias ejecuciones se observa que el resultado obtenido es el esperado,
+esto es debido a que, a diferencia del código en Python, Rust ayuda con su sistema de tipos, previniendo condiciones de carrera en tiempo de compilación y permitiendo
+la compartición de un recurso entre hilos[2]
+
+[1] https://blog.adrianistan.eu/concurrencia-en-rust
+[2] https://goyox86.gitbooks.io/el-libro-de-rust/content/concurrency.html

@@ -1,0 +1,33 @@
+Francisco Javier Pérez Martínez
+
+==============================================
+            PRACTICA 1: CUESTIONES
+==============================================
+
+····························
+Ejercicio 1: PROCESOS Unix/C
+····························
+
+1) El programa crea 5 procesos y el proceso padre espera a que acaben sus hijos e imprime información sobre estos (p.e --> pid del hijo terminado).
+   Cada proceso hijo se imprime 50 veces con su información.
+
+   La sentencia WEXITSTATUS es una macro que se encarga de evaluar la variable salida, es decir, devuelve el código de salida especificado por el proceso hijo.
+
+2 y 3) Código en el fichero "ej1_2y3.c"
+
+4) Código en el fichero "ej1_4.c"
+
+
+························
+Ejercicio 2: HILOS POSIX
+························
+
+1) El programa crea 5 hilos, en el primer bucle creamos los hilos con pthread_create y cada hilo ejecuta una función y
+   en el segundo bucle se espera a que termine el hilo creado (pthread_join) y muestra la salida.
+   (p.e --> 'i' muestra en que iteración se encuentra un hilo y una variable global 'I' 
+   que contabiliza todas las iteraciones de los hilos 5x50 = 250).
+
+   La diferencia es que el de procesos al crear el proceso éste llama a una función y el de hilos, al crear el hilo
+   se crea con la funcion/comportamiento que realizará el hilo.
+
+2) Codigo en el fichero "ej2_2.c"

@@ -1,0 +1,52 @@
+Francisco Javier Pérez Martínez
+
+======================================================================================
+            PRACTICA 3: FALLOS DETECTADOS EN ALGORITMOS CON ESPERA OCUPADA
+======================================================================================
+
+·····················
+Ejercicio Hilos POSIX
+·····················
+
+1.  Codigo de los apartados a y b en *Intento1.c* e *Intento2.c* respectivamente.
+
+2.  En el primer intento, los hilos 1 y 2 se van alternando y aunque garantice la exclusión mutua debido al uso de la variable "turno" 
+    existen varios problemas como es la condición de progreso. En este caso, para que pueda entrar el hilo2 tiene que entrar antes el hilo1 y
+    si este no lo hace (p.e debido a un error) provocaría una espera infinita. Existe otro problema y es que no satisface la condición de entrada inmediata,
+    ya que si "turno" vale 1, pero el hilo2 está en el resto del código el hilo1 no podrá entrar.
+
+    En el segundo intento, se soluciona el problema de alternancia exclusiva del anterior algoritmo usando un array de booleanos para comprobar si un hilo está (true)
+    o no (false) en la sección crítica. Sin embargo, existe un problema fundamental en este algoritmo y es que no asegura la exclusión mutua por lo que
+    es posible que ambos valores del array sean verdaderos. Esto es debido a que un hilo verifica el estado del otro antes de cambiar su propio estado.
+
+·····················
+Ejercicio Hilos Java
+·····················
+
+1.  Codigo de los apartados b y c en *Intento2.java* e *Intento3.java* respectivamente.
+
+2.  En el segundo intento, al igual que en el Intento2 en POSIX existe la problematica fundamental de no asegurar la exclusión mutua.
+
+    En el tercer intento, se soluciona el algoritmo anterior realizando la comprobación del estado propio antes de verificar el del otro 
+    impidiendo así que entren simultáneamente a la sección crítica. Sin embargo, puede generarse un interbloqueo si ambos hilos se encuentran 
+    esperando a que cambien su estado.
+
+    ## NOTA: observa el atributo volatile para la variable turno, ¿qué ocurrre si lo eliminas? ##
+
+    Si eliminamos el atributo volatile, podría darse el caso de que uno de los hilos tenga en la caché un valor antiguo 
+    al actualizar una variable del mismo objeto al mismo tiempo. Ejecutando el código vemos que siempre se encuentra en el hilo 0.
+
+
+······················
+Ejercicio Hilos Python
+······················
+
+1.   Codigo de los apartados c y d en *Intento3.py* e *Intento4.py* respectivamente.
+
+2.   En el tercer intento, al igual que en Java se genera un interbloqueo.
+
+     En el cuarto intento, se puede romper el interbloqueo generado por la condición de carrera del código anterior
+     cambiando temporalmente el estado de states[i] a falso, e inmediatamente volver a ponerlo en verdadero. De esta forma,
+     se abre una ventana temporal para que uno de los procesos pueda continuar. Este algoritmo garantiza la exclusión mutua y
+     no se produce una espera ilimitada, pero no podemos asegurar que la espera estará limitada a un número
+     de pasos finito fenómeno conocido como bloqueo activo (livelock).
