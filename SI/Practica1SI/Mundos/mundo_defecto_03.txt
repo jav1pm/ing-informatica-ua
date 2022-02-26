@@ -1,0 +1,10 @@
+b b b b b b b b b b b b b b
+b c c c c c c c c c c c c b
+b c k c c c c c c c c c c b
+b c c c c c c c c c c c c b
+b c c c c c c c c c c c c b
+b c c c c c c c c c c c c b
+b c c a b b b b b b b b b b
+b c c a a c c c c c c c d b
+b c c c c c c c c c c c c b
+b b b b b b b b b b b b b b
