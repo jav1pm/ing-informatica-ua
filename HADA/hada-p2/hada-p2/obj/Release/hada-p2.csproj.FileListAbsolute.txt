@@ -1,0 +1,6 @@
+C:\Users\javi1\Desktop\practicasHADA\hada-p2\hada-p2\bin\Release\hada-p2.exe.config
+C:\Users\javi1\Desktop\practicasHADA\hada-p2\hada-p2\bin\Release\hada-p2.exe
+C:\Users\javi1\Desktop\practicasHADA\hada-p2\hada-p2\bin\Release\hada-p2.pdb
+C:\Users\javi1\Desktop\practicasHADA\hada-p2\hada-p2\obj\Release\hada-p2.csprojAssemblyReference.cache
+C:\Users\javi1\Desktop\practicasHADA\hada-p2\hada-p2\obj\Release\hada-p2.exe
+C:\Users\javi1\Desktop\practicasHADA\hada-p2\hada-p2\obj\Release\hada-p2.pdb
