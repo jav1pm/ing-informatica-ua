@@ -1,0 +1,105 @@
+#include "../gdefs.cm"
+
+semaphore critica;
+semaphore vacios;
+semaphore llenos; 
+
+int i=0;
+int cont=0;
+int num=5;
+
+void ponerpieza() {
+	int k;
+	if(i <500) {
+	i=i+100;
+	for(k=50;k<=200;k=k+50) {  // movemos el productor hacia la cinta
+		moveto(7,i,k);
+	}
+	create(i,CIRCLE,GREEN,i,200,50,50);  //creamos la pieza y aumentamos el contador
+	cont=cont+1;
+	
+	for(k=200;k>=50;k=k-50) {
+		moveto(7,i,k);
+	}
+	moveto(7,100,50);
+	}
+}
+void quitarpieza() {
+	int k;
+	
+	if(i>0) {
+	for(k=350;k>=200;k=k-50) {  // movemos el consumidor hacia la cinta
+		moveto(9,i,k);
+	}
+	moveto(i,3000,3000);  // quitamos la pieza de la cinta y reducimos el contador de piezas de la cinta
+	i=i-100;
+	cont=cont-1;
+	moveto(9,600,350);
+	}
+	
+}
+void productor() {
+
+	
+	while(1) {
+	
+	p(vacios);  // el productor se queda esperando cuando no tenga espacio en la cinta
+	p(critica);
+	ponerpieza();
+	v(critica);
+	v(llenos);
+	}
+}
+void consumidor() {
+	int numal;
+	int j;
+	
+	while(1) {
+	numal=random(num);  // generamos un numero aleatorio
+	p(llenos);  // esperamos a que haya alguna pieza
+	p(critica);
+		if(numal>2) {  // generamos un numero aleatorio que hara que el consumidor pueda coger piezas
+		   for(j=0;j<2;j++) {
+		   quitarpieza();
+		   }
+		}
+	v(critica);
+	v(vacios);
+	}
+}
+
+void main() {
+
+	//cinta
+	create(1,RECTANGLE,BLACK,100,200,500,100);
+	create(2,RECTANGLE,WHITE,200,200,1,100);
+	create(3,RECTANGLE,WHITE,300,200,1,100);
+	create(4,RECTANGLE,WHITE,400,200,1,100);
+	create(5,RECTANGLE,WHITE,500,200,1,100);
+	create(6,RECTANGLE,WHITE,600,200,1,100);
+	
+	//Productor 
+	create(7,RECTANGLE,BLUE,100,50,100,80);
+
+	//Consumidor
+	create(9,RECTANGLE,YELLOW,600,350,100,80);
+	
+	initialsem(critica,1); // se encarga de controlar el acceso a la hora de depositar en la cinta 
+			       //ya que si el productor esta depositando una pieza 
+			       //elconsumidor tendra que esperar a que termine
+
+	initialsem(vacios,5);  //se encarga de hacer entrar al consumidor en un bucle infinito 
+			       //cuando en la cinta no hay ningun producto,
+			       //inicializamos a 5 porque al principio estara vacio
+
+	initialsem(llenos,0);  // se encarga de hacer entrar al productor en un bucle cuando la cinta este llena,
+			       //inicializamos a 0 ya que al principio no se tiene ninguna pieza
+
+	cobegin 
+	{
+		productor();
+		consumidor();
+	}
+
+
+}
