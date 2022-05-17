@@ -1,6 +1,6 @@
 # Sistemas Operativos
 
-Repositorio de las prácticas realizadss en la asignatura de Sistemas Operativos.
+Repositorio de las prácticas realizadas en la asignatura de Sistemas Operativos.
 
 ## Contenido
 
