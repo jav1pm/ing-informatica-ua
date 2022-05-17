@@ -3,9 +3,8 @@
 
 Repositorio para las prácticas de Sistemas Embebidos.
 
-
 <p align="center">
-    <img src="./assets/readme.png">
+    <img src="./assets/readme.jpg">
 </p>
 
 
