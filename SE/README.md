@@ -1,11 +1,18 @@
-# Programación y Estructura de Datos
 
-Repositorio para las prácticas de Programación y Estructuras de Datos.
+# Sistemas Embebidos
 
-## Contenido
+Repositorio para las prácticas de Sistemas Embebidos.
 
-- Lenguaje de programación empleado : C++
-- Conceptos de estructuras de datos como: Lista, Vector, Árbol Binario de Búsqueda y Árbol AVL.
+
+<p align="center">
+    <img src="./assets/readme.png">
+</p>
+
+
+## Contenido y dispositivos utilizados
+
+- Arduino Nano 33 IoT & Arduino Uno.
+- MQTT, BLE, Arduino IoT Cloud, MAX3012 sensor, OLED I2C 128x32.
 
 ## Autor
 
