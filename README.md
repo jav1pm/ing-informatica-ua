@@ -7,3 +7,7 @@ This repository contains all the projects and practices made at University of Al
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
+<p align="center">
+    <img src="./ua.png">
+</p>
+
