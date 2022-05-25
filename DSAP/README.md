@@ -10,6 +10,8 @@ Repositorio para las prácticas de Desarrollo de software en arquitecturas paral
 - MMalla
 - FW
 
+**Lenguaje utilizado =>** `MPI`* mediante el software MPICH (implementación libre y portable del estándar MPI) utilizado para el paso de mensajes en aplicaciones de memoria distribuido en computación paralela.
+
 ## Ejemplo
 
 ```c
