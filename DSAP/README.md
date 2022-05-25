@@ -12,7 +12,7 @@ Repositorio para las prácticas de Desarrollo de software en arquitecturas paral
 
 ## Ejemplo
 
-```mpi
+```c
 #include <stdio.h>
 #include <mpi.h>
 
