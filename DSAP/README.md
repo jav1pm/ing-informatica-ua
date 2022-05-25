@@ -10,7 +10,9 @@ Repositorio para las prácticas de Desarrollo de software en arquitecturas paral
 - MMalla
 - FW
 
-**Lenguaje utilizado =>** `MPI` mediante el software [MPICH](https://www.mpich.org/) empleado para el paso de mensajes en aplicaciones de memoria distribuida en computación paralela.
+**Interfaz de paso de mensajes `MPI` mediante el software [MPICH](https://www.mpich.org/) empleado en aplicaciones de memoria distribuida en computación paralela.
+
+**Lenguaje empleado : `C`
 
 ## Ejemplo
 
