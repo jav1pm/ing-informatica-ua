@@ -22,7 +22,7 @@ Repositorio para las prácticas y problemas realizados en la asignatura de Autom
     <img src="./assets/ros.png">
 </p>
 
-**Lenguajes usados: `KOP`, `Matlab` y `Python`.
+**Lenguajes usados: `KOP`, `Matlab` y `Python`**.
 
 ## Problemas teóricos realizados
 
