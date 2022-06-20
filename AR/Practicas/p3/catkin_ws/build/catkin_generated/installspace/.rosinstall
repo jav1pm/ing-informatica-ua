@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/huro/catkin_ws/install/setup.sh

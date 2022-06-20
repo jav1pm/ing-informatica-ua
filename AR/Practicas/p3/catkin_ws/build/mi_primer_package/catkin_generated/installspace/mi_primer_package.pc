@@ -1,0 +1,8 @@
+prefix=/home/huro/catkin_ws/install
+
+Name: mi_primer_package
+Description: Description of mi_primer_package
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/huro/catkin_ws/install/lib 
+Requires: 

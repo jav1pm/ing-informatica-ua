@@ -1,0 +1,2 @@
+mi_primer_package:publisher_and_subscriber
+-DCATKIN_DEVEL_PREFIX=/home/huro/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/huro/catkin_ws/install -G Unix Makefiles

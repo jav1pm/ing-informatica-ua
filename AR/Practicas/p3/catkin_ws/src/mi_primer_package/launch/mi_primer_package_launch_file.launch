@@ -1,0 +1,5 @@
+<launch>
+	<!--Mi primer Package launch file-->
+	<node pkg="mi_primer_package" type="simple.py" name="SoyNodo" output="screen">
+	</node>
+</launch>
