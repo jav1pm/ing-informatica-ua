@@ -34,6 +34,3 @@ siguiendo el algoritmo de Denavit-Hartenberg y el segundo por métodos geométri
 
 - [@Javiiiis](https://www.github.com/Javiiiis)
 
-## Licencia
-
-[MIT](https://choosealicense.com/licenses/mit/)
