@@ -19,7 +19,3 @@ Repositorio de las prácticas realizadas en la asignatura de Sistemas Operativos
 
 - [@Javiiiis](https://www.github.com/Javiiiis)
 - [@fmurciag](https://www.github.com/fmurciag)
-
-## Licencia
-
-[MIT](https://choosealicense.com/licenses/mit/)
