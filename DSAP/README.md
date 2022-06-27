@@ -67,10 +67,3 @@ int main(int argc, char **argv)
 }
 ```
 
-## Autor
-
-- [@Javiiiis](https://www.github.com/Javiiiis)
-
-## Licencia
-
-[MIT](https://choosealicense.com/licenses/mit/)
