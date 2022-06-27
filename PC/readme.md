@@ -13,10 +13,3 @@ Repositorio para las prácticas de Programación Concurrente.
   En las prácticas se utilizan diversos lenguajes y bibliotecas de amplio uso profesional: C/Unix/Posix, Java, C++, Rust, etc.
 ```
 
-## Autor
-
-- [@Javiiiis](https://www.github.com/Javiiiis)
-
-## Licencia
-
-[MIT](https://choosealicense.com/licenses/mit/)
