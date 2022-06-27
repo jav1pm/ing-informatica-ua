@@ -10,11 +10,3 @@ Repositorio para las prácticas de Sistemas Embebidos.
 <p align="center">
     <img src="./assets/readme.jpg">
 </p>
-
-## Autor
-
-- [@Javiiiis](https://www.github.com/Javiiiis)
-
-## Licencia
-
-[MIT](https://choosealicense.com/licenses/mit/)
