@@ -1,0 +1,6 @@
+Run todos = mvn test -DexcludedGroups=parametrizado,excluido
+Run CineTest = mvn test -Dtest=CineTest -DexcludedGroups=parametrizado
+Run DataArrayTest = mvn test -Dtest=DataArrayTest -DexcludedGroups=parametrizado
+Run parametrizados = mvn test -Dgroups=parametrizado
+Run parametrizados con excepciones = mvn test -Dgroups=conExcepciones
+Run FicheroTextTest sin excluidos = mvn test -Dtest=FicheroTextoTest -DexcludedGroups=excluido
