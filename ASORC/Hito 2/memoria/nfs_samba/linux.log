@@ -1,0 +1,661 @@
+[2020/11/08 22:53:21.320268,  0] ../../source3/smbd/server.c:1775(main)
+  smbd version 4.11.2 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2019
+[2020/11/08 22:53:21.538308,  0] ../../lib/util/become_daemon.c:136(daemon_ready)
+  daemon_ready: daemon 'smbd' finished starting up and ready to serve connections
+[2020/11/08 23:08:27.939057,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:08:27.940244,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:08:27.940868,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:08:27.941494,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:08:27.942148,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:08:27.943021,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:08:27.943635,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:08:27.944223,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:08:28.095627,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:08:28.096071,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:08:28.096462,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:08:28.097027,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:08:28.097543,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:08:28.098109,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:08:28.098512,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:08:28.099080,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:08:28.113512,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:08:28.114142,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:08:28.114721,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:08:28.115373,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:08:28.116042,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:08:28.116552,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:08:28.117066,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:08:28.117477,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:08:28.161110,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:08:28.161584,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:08:28.162023,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:08:28.162444,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:08:28.162856,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:08:28.163182,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:08:28.163510,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:08:28.163784,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:08:28.319363,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:08:28.319735,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:08:28.320004,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:08:28.320352,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:08:28.320703,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:08:28.320966,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:08:28.321291,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:08:28.375612,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:08:28.376056,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:08:28.376738,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:08:28.422978,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:08:28.423339,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:08:28.423621,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:08:28.423917,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:08:28.424234,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:08:28.424536,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:08:28.424790,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:17:16.809462,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:17:16.810159,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:17:16.810695,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:17:16.811182,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:17:16.811685,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:17:16.812148,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:17:16.812618,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:17:16.813052,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:17:16.944041,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:17:16.944690,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:17:16.945187,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:17:16.945728,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:17:16.946160,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:17:16.946542,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:17:16.946934,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:17:16.947394,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:17:17.046235,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:17:17.046714,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:17:17.047133,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:17:17.047550,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:17:17.048011,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:17:17.048665,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:17:17.094488,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:17:17.094893,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:17:17.096158,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:17:17.096920,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:17:17.098047,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:17:17.099122,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:17:17.099988,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:17:17.255151,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:17:17.255797,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:17:17.256413,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:17:17.256975,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:17:17.257564,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:17:17.258088,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:17:17.258600,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:17:17.309226,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:17:17.309751,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:17:17.310391,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:17:17.310922,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:17:17.311470,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:17:17.311926,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:17:17.312448,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:17:17.313275,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:17:17.363691,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:17:17.364531,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:17:17.365413,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:17:17.366086,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:17:17.420521,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:17:17.420929,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:17:17.421297,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:17:17.421657,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:17:17.422060,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:17:17.422479,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:19:23.580094,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:19:23.580610,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:19:23.581178,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:19:23.581777,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:19:23.582114,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:19:23.582600,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:19:23.583020,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:19:23.731341,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:19:23.732265,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:19:23.733233,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:19:23.733672,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:19:23.734318,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:19:23.734926,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:19:23.735665,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:19:23.849804,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:19:23.850749,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:19:23.851288,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:19:23.851780,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:19:23.852527,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:19:23.853054,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:19:23.853442,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:19:23.904399,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:19:23.904895,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:19:23.905557,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:19:23.907375,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:19:23.908299,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:19:23.909260,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:19:24.025046,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:19:24.025778,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:19:24.026260,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:19:24.026682,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:19:24.027069,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:19:24.027496,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:19:24.028186,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:19:24.028822,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:19:24.077621,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:19:24.078195,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:19:24.078654,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:19:24.079052,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:19:24.079454,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:19:24.079885,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:19:24.080276,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:19:24.080627,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:19:24.125234,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:19:24.125793,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:19:24.126271,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:19:24.126731,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:19:24.171709,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:19:24.172179,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:19:24.172574,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:19:24.173602,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:19:24.174377,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:19:24.174956,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:19:24.175499,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:25:36.589777,  0] ../../source3/smbd/server.c:1775(main)
+  smbd version 4.11.2 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2019
+[2020/11/08 23:25:36.611249,  0] ../../lib/util/become_daemon.c:136(daemon_ready)
+  daemon_ready: daemon 'smbd' finished starting up and ready to serve connections
+[2020/11/08 23:25:46.277271,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:25:46.277734,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:25:46.278274,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:25:46.278779,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:25:46.279290,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:25:46.279747,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:25:46.280220,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:25:46.280674,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:25:46.424588,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:25:46.425366,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:25:46.425969,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:25:46.426472,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:25:46.426982,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:25:46.427481,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:25:46.427969,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:25:46.480703,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:25:46.481117,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:25:46.481445,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:25:46.481773,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:25:46.482125,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:25:46.482442,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:25:46.482911,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:25:46.483232,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:25:46.592972,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:25:46.593899,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:25:46.594655,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:25:46.595984,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:25:46.596773,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:25:46.598275,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:25:46.599006,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:25:46.599444,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:25:46.648240,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:25:46.648758,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:25:46.649204,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:25:46.649595,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:25:46.650007,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:25:46.651115,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:25:46.651510,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:25:46.746950,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:25:46.747318,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:25:46.747667,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:25:46.747962,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:25:46.748322,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:25:46.748651,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:25:46.749628,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:25:46.749916,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:25:46.847739,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:25:46.848557,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:25:46.848927,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:25:46.849470,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:25:46.901623,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:25:46.901949,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:25:46.902364,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:25:46.902844,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:25:46.903345,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:25:46.903715,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:25:46.903982,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:25:46.904289,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:27:15.830930,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:27:15.831332,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:27:15.831708,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:27:15.832139,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:27:15.836559,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:27:15.837045,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:27:15.837716,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:27:15.838485,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:29:51.292172,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:29:51.293015,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:29:51.293497,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:29:51.294219,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:29:51.294694,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:29:51.295276,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:29:51.295950,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:29:51.421758,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:29:51.422458,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:29:51.422916,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:29:51.423655,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:29:51.424177,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:29:51.424645,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:29:51.425157,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:29:51.477087,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:29:51.477576,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:29:51.477970,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:29:51.478409,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:29:51.478846,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:29:51.479341,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:29:51.575936,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:29:51.576684,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:29:51.577186,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:29:51.577707,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:29:51.578367,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:29:51.579105,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:29:51.579665,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:29:51.628235,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:29:51.628816,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:29:51.629464,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:29:51.629816,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:29:51.630156,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:29:51.630589,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:29:51.631081,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:29:51.729084,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:29:51.729613,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:29:51.730005,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:29:51.730348,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:29:51.730833,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:29:51.731323,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:29:51.731707,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:29:51.732111,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:29:51.826054,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:29:51.826660,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:29:51.827146,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:29:51.827611,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:29:51.877168,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:29:51.877574,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:29:51.877969,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:29:51.878428,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:29:51.878893,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:29:51.879268,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:29:51.879617,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:33:34.884311,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:33:34.885106,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:33:34.885491,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:33:34.885879,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:33:34.886617,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:33:34.887077,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:33:34.887555,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:33:34.888065,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:33:34.979615,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:33:34.980004,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:33:34.980697,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:33:34.981242,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:33:34.982368,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:33:34.982917,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:33:34.983878,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:33:34.984325,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:33:35.148409,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:33:35.149260,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:33:35.149737,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:33:35.150288,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:33:35.150797,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:33:35.151184,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:33:35.202522,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:33:35.203120,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:33:35.203744,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:33:35.204212,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:33:35.204702,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:33:35.205091,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:33:35.205533,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:33:35.354583,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:33:35.355293,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:33:35.355793,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:33:35.356325,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:33:35.356892,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:33:35.357423,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:33:35.357914,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:33:35.358309,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:33:35.460501,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:33:35.460916,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:33:35.461478,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:33:35.514976,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:33:35.515429,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:33:35.516055,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:33:35.516589,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:33:35.517175,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:33:35.517591,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:33:35.518010,  0] ../../source3/smbd/service.c:784(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service samba_shared, path /data/samba/samba_shared
+[2020/11/08 23:40:18.313409,  0] ../../source3/smbd/server.c:1775(main)
+  smbd version 4.11.2 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2019
+[2020/11/08 23:40:18.432666,  0] ../../lib/util/become_daemon.c:136(daemon_ready)
+  daemon_ready: daemon 'smbd' finished starting up and ready to serve connections

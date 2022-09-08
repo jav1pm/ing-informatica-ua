@@ -1,0 +1,49 @@
+Nov 10 17:31:46 freebsd dhcpd[1130]: 
+Nov 10 17:31:46 freebsd dhcpd[1130]: No subnet declaration for em0 (10.0.2.9).
+Nov 10 17:31:46 freebsd dhcpd[1130]: ** Ignoring requests on em0.  If this is not what
+Nov 10 17:31:46 freebsd dhcpd[1130]:    you want, please write a subnet declaration
+Nov 10 17:31:46 freebsd dhcpd[1130]:    in your dhcpd.conf file for the network segment
+Nov 10 17:31:46 freebsd dhcpd[1130]:    to which interface em0 is attached. **
+Nov 10 17:31:46 freebsd dhcpd[1130]: 
+Nov 10 17:41:46 freebsd dhcpd[1130]: ns1.example.org: host unknown.
+Nov 10 17:41:47 freebsd dhcpd[1130]: ns2.example.org: host unknown.
+Nov 10 17:43:13 freebsd dhcpd[1130]: ns1.example.org: host unknown.
+Nov 10 17:43:13 freebsd dhcpd[1130]: ns2.example.org: host unknown.
+Nov 10 17:57:48 freebsd dhcpd[1378]: /usr/local/etc/dhcpd.conf line 22: unknown value
+Nov 10 17:57:48 freebsd dhcpd[1378]: log-facility VERBOSE;
+Nov 10 17:57:48 freebsd dhcpd[1378]:               ^
+Nov 10 17:57:48 freebsd dhcpd[1378]: /usr/local/etc/dhcpd.conf line 22: expecting a parameter or declaration
+Nov 10 17:57:48 freebsd dhcpd[1378]: log-facility VERBOSE;
+Nov 10 17:57:48 freebsd dhcpd[1378]:                      ^
+Nov 10 17:57:48 freebsd dhcpd[1378]: Configuration file errors encountered -- exiting
+Nov 10 17:57:48 freebsd dhcpd[1378]: 
+Nov 10 17:57:48 freebsd dhcpd[1378]: If you think you have received this message due to a bug rather
+Nov 10 17:57:48 freebsd dhcpd[1378]: than a configuration issue please read the section on submitting
+Nov 10 17:57:48 freebsd dhcpd[1378]: bugs on either our web page at www.isc.org or in the README file
+Nov 10 17:57:48 freebsd dhcpd[1378]: before submitting a bug.  These pages explain the proper
+Nov 10 17:57:48 freebsd dhcpd[1378]: process and the information we find helpful for debugging.
+Nov 10 17:57:48 freebsd dhcpd[1378]: 
+Nov 10 17:57:48 freebsd dhcpd[1378]: exiting.
+Nov 10 17:57:48 freebsd dhcpd[1379]: /usr/local/etc/dhcpd.conf line 22: unknown value
+Nov 10 17:57:48 freebsd dhcpd[1379]: log-facility VERBOSE;
+Nov 10 17:57:48 freebsd dhcpd[1379]:               ^
+Nov 10 17:57:48 freebsd dhcpd[1379]: /usr/local/etc/dhcpd.conf line 22: expecting a parameter or declaration
+Nov 10 17:57:48 freebsd dhcpd[1379]: log-facility VERBOSE;
+Nov 10 17:57:48 freebsd dhcpd[1379]:                      ^
+Nov 10 17:57:48 freebsd dhcpd[1379]: Configuration file errors encountered -- exiting
+Nov 10 17:57:48 freebsd dhcpd[1379]: 
+Nov 10 17:57:48 freebsd dhcpd[1379]: If you think you have received this message due to a bug rather
+Nov 10 17:57:48 freebsd dhcpd[1379]: than a configuration issue please read the section on submitting
+Nov 10 17:57:48 freebsd dhcpd[1379]: bugs on either our web page at www.isc.org or in the README file
+Nov 10 17:57:48 freebsd dhcpd[1379]: before submitting a bug.  These pages explain the proper
+Nov 10 17:57:48 freebsd dhcpd[1379]: process and the information we find helpful for debugging.
+Nov 10 17:57:48 freebsd dhcpd[1379]: 
+Nov 10 17:57:48 freebsd dhcpd[1379]: exiting.
+Nov 10 17:57:48 freebsd Javi[1380]: /usr/local/etc/rc.d/isc-dhcpd: ERROR:  Configuration file sanity check failed
+Nov 10 17:58:15 freebsd dhcpd[1415]: 
+Nov 10 17:58:15 freebsd dhcpd[1415]: No subnet declaration for em0 (10.0.2.9).
+Nov 10 17:58:15 freebsd dhcpd[1415]: ** Ignoring requests on em0.  If this is not what
+Nov 10 17:58:15 freebsd dhcpd[1415]:    you want, please write a subnet declaration
+Nov 10 17:58:15 freebsd dhcpd[1415]:    in your dhcpd.conf file for the network segment
+Nov 10 17:58:15 freebsd dhcpd[1415]:    to which interface em0 is attached. **
+Nov 10 17:58:15 freebsd dhcpd[1415]: 

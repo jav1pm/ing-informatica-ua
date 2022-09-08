@@ -1,0 +1,186 @@
+Tue Nov 10 19:22:28 2020  [DEBUG] *** Final Configuration ***
+Tue Nov 10 19:22:28 2020  [DEBUG] AnonDirName        = "/var/spool/cups-pdf/ANONYMOUS"
+Tue Nov 10 19:22:28 2020  [DEBUG] AnonUser           = "nobody"
+Tue Nov 10 19:22:28 2020  [DEBUG] GhostScript        = "/usr/bin/gs"
+Tue Nov 10 19:22:28 2020  [DEBUG] GSCall             = "%s -q -dCompatibilityLevel=%s -dNOPAUSE -dBATCH -dSAFER -sDEVICE=pdfwrite -sOutputFile="%s" -dAutoRotatePages=/PageByPage -dAutoFilterColorImages=false -dColorImageFilter=/FlateEncode -dPDFSETTINGS=/prepress -c .setpdfwrite -f %s"
+Tue Nov 10 19:22:28 2020  [DEBUG] Grp                = "lp"
+Tue Nov 10 19:22:28 2020  [DEBUG] GSTmp              = "TMPDIR=/var/tmp"
+Tue Nov 10 19:22:28 2020  [DEBUG] Log                = "/var/log/cups"
+Tue Nov 10 19:22:28 2020  [DEBUG] PDFVer             = "1.2"
+Tue Nov 10 19:22:28 2020  [DEBUG] PostProcessing     = ""
+Tue Nov 10 19:22:28 2020  [DEBUG] Out                = "${HOME}"
+Tue Nov 10 19:22:28 2020  [DEBUG] Spool              = "/var/spool/cups-pdf/SPOOL"
+Tue Nov 10 19:22:28 2020  [DEBUG] UserPrefix         = ""
+Tue Nov 10 19:22:28 2020  [DEBUG] RemovePrefix       = ""
+Tue Nov 10 19:22:28 2020  [DEBUG] OutExtension       = "pdf"
+Tue Nov 10 19:22:28 2020  [DEBUG] Cut                = 3
+Tue Nov 10 19:22:28 2020  [DEBUG] Truncate           = 64
+Tue Nov 10 19:22:28 2020  [DEBUG] DirPrefix          = 0
+Tue Nov 10 19:22:28 2020  [DEBUG] Label              = 2
+Tue Nov 10 19:22:28 2020  [DEBUG] LogType            = 7
+Tue Nov 10 19:22:28 2020  [DEBUG] LowerCase          = 1
+Tue Nov 10 19:22:28 2020  [DEBUG] TitlePref          = 0
+Tue Nov 10 19:22:28 2020  [DEBUG] DecodeHexStrings   = 0
+Tue Nov 10 19:22:28 2020  [DEBUG] FixNewlines        = 0
+Tue Nov 10 19:22:28 2020  [DEBUG] AllowUnsafeOptions = 0
+Tue Nov 10 19:22:28 2020  [DEBUG] AnonUMask          = 0000
+Tue Nov 10 19:22:28 2020  [DEBUG] UserUMask          = 0077
+Tue Nov 10 19:22:28 2020  [DEBUG] *** End of Configuration ***
+Tue Nov 10 19:22:28 2020  [DEBUG] set new gid: lp
+Tue Nov 10 19:22:28 2020  [STATUS] directory created: /var/spool/cups-pdf
+Tue Nov 10 19:22:28 2020  [STATUS] directory created: /var/spool/cups-pdf/SPOOL
+Tue Nov 10 19:22:28 2020  [STATUS] spool directory created: /var/spool/cups-pdf/SPOOL
+Tue Nov 10 19:22:28 2020  [DEBUG] initialization finished: v3.0.1
+Tue Nov 10 19:22:28 2020  [DEBUG] user identified: javi
+Tue Nov 10 19:22:28 2020  [DEBUG] output directory name generated: /home/javi
+Tue Nov 10 19:22:28 2020  [DEBUG] user information prepared
+Tue Nov 10 19:22:28 2020  [DEBUG] spoolfile name created: /var/spool/cups-pdf/SPOOL/cups2pdf-13561
+Tue Nov 10 19:22:28 2020  [DEBUG] source stream ready
+Tue Nov 10 19:22:28 2020  [DEBUG] destination stream ready: /var/spool/cups-pdf/SPOOL/cups2pdf-13561
+Tue Nov 10 19:22:28 2020  [DEBUG] owner set for spoolfile: /var/spool/cups-pdf/SPOOL/cups2pdf-13561
+Tue Nov 10 19:22:28 2020  [DEBUG] using traditional fgets
+Tue Nov 10 19:33:48 2020  [DEBUG] *** Final Configuration ***
+Tue Nov 10 19:33:48 2020  [DEBUG] AnonDirName        = "/var/spool/cups-pdf/ANONYMOUS"
+Tue Nov 10 19:33:48 2020  [DEBUG] AnonUser           = "nobody"
+Tue Nov 10 19:33:48 2020  [DEBUG] GhostScript        = "/usr/bin/gs"
+Tue Nov 10 19:33:48 2020  [DEBUG] GSCall             = "%s -q -dCompatibilityLevel=%s -dNOPAUSE -dBATCH -dSAFER -sDEVICE=pdfwrite -sOutputFile="%s" -dAutoRotatePages=/PageByPage -dAutoFilterColorImages=false -dColorImageFilter=/FlateEncode -dPDFSETTINGS=/prepress -c .setpdfwrite -f %s"
+Tue Nov 10 19:33:48 2020  [DEBUG] Grp                = "lp"
+Tue Nov 10 19:33:48 2020  [DEBUG] GSTmp              = "TMPDIR=/var/tmp"
+Tue Nov 10 19:33:48 2020  [DEBUG] Log                = "/var/log/cups"
+Tue Nov 10 19:33:48 2020  [DEBUG] PDFVer             = "1.2"
+Tue Nov 10 19:33:48 2020  [DEBUG] PostProcessing     = ""
+Tue Nov 10 19:33:48 2020  [DEBUG] Out                = "${HOME}"
+Tue Nov 10 19:33:48 2020  [DEBUG] Spool              = "/var/spool/cups-pdf/SPOOL"
+Tue Nov 10 19:33:48 2020  [DEBUG] UserPrefix         = ""
+Tue Nov 10 19:33:48 2020  [DEBUG] RemovePrefix       = ""
+Tue Nov 10 19:33:48 2020  [DEBUG] OutExtension       = "pdf"
+Tue Nov 10 19:33:48 2020  [DEBUG] Cut                = 3
+Tue Nov 10 19:33:48 2020  [DEBUG] Truncate           = 64
+Tue Nov 10 19:33:48 2020  [DEBUG] DirPrefix          = 0
+Tue Nov 10 19:33:48 2020  [DEBUG] Label              = 2
+Tue Nov 10 19:33:48 2020  [DEBUG] LogType            = 7
+Tue Nov 10 19:33:48 2020  [DEBUG] LowerCase          = 1
+Tue Nov 10 19:33:48 2020  [DEBUG] TitlePref          = 0
+Tue Nov 10 19:33:48 2020  [DEBUG] DecodeHexStrings   = 0
+Tue Nov 10 19:33:48 2020  [DEBUG] FixNewlines        = 0
+Tue Nov 10 19:33:48 2020  [DEBUG] AllowUnsafeOptions = 0
+Tue Nov 10 19:33:48 2020  [DEBUG] AnonUMask          = 0000
+Tue Nov 10 19:33:48 2020  [DEBUG] UserUMask          = 0077
+Tue Nov 10 19:33:48 2020  [DEBUG] *** End of Configuration ***
+Tue Nov 10 19:33:48 2020  [DEBUG] set new gid: lp
+Tue Nov 10 19:33:48 2020  [DEBUG] initialization finished: v3.0.1
+Tue Nov 10 19:33:48 2020  [DEBUG] unknown user: anonymous
+Tue Nov 10 19:33:48 2020  [DEBUG] trying lower case user name: anonymous
+Tue Nov 10 19:33:48 2020  [DEBUG] unknown user: anonymous
+Tue Nov 10 19:33:48 2020  [DEBUG] output directory name generated: /var/spool/cups-pdf/ANONYMOUS
+Tue Nov 10 19:33:48 2020  [STATUS] directory created: /var/spool/cups-pdf/ANONYMOUS
+Tue Nov 10 19:33:48 2020  [DEBUG] anonymous output directory created: /var/spool/cups-pdf/ANONYMOUS
+Tue Nov 10 19:33:48 2020  [DEBUG] owner set for output directory: nobody
+Tue Nov 10 19:33:48 2020  [DEBUG] user information prepared
+Tue Nov 10 19:33:48 2020  [DEBUG] spoolfile name created: /var/spool/cups-pdf/SPOOL/cups2pdf-13914
+Tue Nov 10 19:33:48 2020  [DEBUG] source stream ready
+Tue Nov 10 19:33:48 2020  [DEBUG] destination stream ready: /var/spool/cups-pdf/SPOOL/cups2pdf-13914
+Tue Nov 10 19:33:48 2020  [DEBUG] owner set for spoolfile: /var/spool/cups-pdf/SPOOL/cups2pdf-13914
+Tue Nov 10 19:33:48 2020  [DEBUG] using traditional fgets
+Tue Nov 10 19:33:49 2020  [DEBUG] found beginning of postscript code: %!PS-Adobe-3.0
+
+Tue Nov 10 19:33:49 2020  [DEBUG] now extracting postscript code
+Tue Nov 10 19:33:49 2020  [DEBUG] found title in ps code: (Test Page)
+
+Tue Nov 10 19:33:49 2020  [DEBUG] found end of postscript code: %%EOF
+
+Tue Nov 10 19:33:49 2020  [DEBUG] all data written to spoolfile: /var/spool/cups-pdf/SPOOL/cups2pdf-13914
+Tue Nov 10 19:33:49 2020  [DEBUG] trying to use PS title: (Test Page)
+
+Tue Nov 10 19:33:49 2020  [DEBUG] removing special characters from title: (Test Page)
+
+Tue Nov 10 19:33:49 2020  [DEBUG] removing trailing _ from title: _Test_Page__
+Tue Nov 10 19:33:49 2020  [DEBUG] removing leading _ from title: _Test_Page
+Tue Nov 10 19:33:49 2020  [DEBUG] title successfully retrieved: Test_Page-job_3
+Tue Nov 10 19:33:49 2020  [DEBUG] input data read from stdin
+Tue Nov 10 19:33:49 2020  [DEBUG] output filename created: /var/spool/cups-pdf/ANONYMOUS/Test_Page-job_3.pdf
+Tue Nov 10 19:33:49 2020  [DEBUG] ghostscript commandline built: /usr/bin/gs -q -dCompatibilityLevel=1.2 -dNOPAUSE -dBATCH -dSAFER -sDEVICE=pdfwrite -sOutputFile="/var/spool/cups-pdf/ANONYMOUS/Test_Page-job_3.pdf" -dAutoRotatePages=/PageByPage -dAutoFilterColorImages=false -dColorImageFilter=/FlateEncode -dPDFSETTINGS=/prepress -c .setpdfwrite -f /var/spool/cups-pdf/SPOOL/cups2pdf-13914
+Tue Nov 10 19:33:49 2020  [DEBUG] output file unlinked: /var/spool/cups-pdf/ANONYMOUS/Test_Page-job_3.pdf
+Tue Nov 10 19:33:49 2020  [DEBUG] TMPDIR set for GhostScript: /var/tmp
+Tue Nov 10 19:33:49 2020  [DEBUG] waiting for child to exit
+Tue Nov 10 19:33:49 2020  [DEBUG] entering child process
+Tue Nov 10 19:33:49 2020  [DEBUG] GID set for current user
+Tue Nov 10 19:33:49 2020  [DEBUG] supplementary groups set for current user
+Tue Nov 10 19:33:49 2020  [DEBUG] UID set for current user: nobody
+Tue Nov 10 19:33:49 2020  [DEBUG] ghostscript has finished: 0
+Tue Nov 10 19:33:49 2020  [DEBUG] file mode set for user output: /var/spool/cups-pdf/ANONYMOUS/Test_Page-job_3.pdf
+Tue Nov 10 19:33:49 2020  [DEBUG] no postprocessing
+Tue Nov 10 19:33:49 2020  [DEBUG] spoolfile unlinked: /var/spool/cups-pdf/SPOOL/cups2pdf-13914
+Tue Nov 10 19:33:49 2020  [DEBUG] all memory has been freed
+Tue Nov 10 19:33:49 2020  [STATUS] PDF creation successfully finished for nobody
+Tue Nov 10 20:04:45 2020  [DEBUG] *** Final Configuration ***
+Tue Nov 10 20:04:45 2020  [DEBUG] AnonDirName        = "/var/spool/cups-pdf/ANONYMOUS"
+Tue Nov 10 20:04:45 2020  [DEBUG] AnonUser           = "nobody"
+Tue Nov 10 20:04:45 2020  [DEBUG] GhostScript        = "/usr/bin/gs"
+Tue Nov 10 20:04:45 2020  [DEBUG] GSCall             = "%s -q -dCompatibilityLevel=%s -dNOPAUSE -dBATCH -dSAFER -sDEVICE=pdfwrite -sOutputFile="%s" -dAutoRotatePages=/PageByPage -dAutoFilterColorImages=false -dColorImageFilter=/FlateEncode -dPDFSETTINGS=/prepress -c .setpdfwrite -f %s"
+Tue Nov 10 20:04:45 2020  [DEBUG] Grp                = "lp"
+Tue Nov 10 20:04:45 2020  [DEBUG] GSTmp              = "TMPDIR=/var/tmp"
+Tue Nov 10 20:04:45 2020  [DEBUG] Log                = "/var/log/cups"
+Tue Nov 10 20:04:45 2020  [DEBUG] PDFVer             = "1.2"
+Tue Nov 10 20:04:45 2020  [DEBUG] PostProcessing     = ""
+Tue Nov 10 20:04:45 2020  [DEBUG] Out                = "${HOME}"
+Tue Nov 10 20:04:45 2020  [DEBUG] Spool              = "/var/spool/cups-pdf/SPOOL"
+Tue Nov 10 20:04:45 2020  [DEBUG] UserPrefix         = ""
+Tue Nov 10 20:04:45 2020  [DEBUG] RemovePrefix       = ""
+Tue Nov 10 20:04:45 2020  [DEBUG] OutExtension       = "pdf"
+Tue Nov 10 20:04:45 2020  [DEBUG] Cut                = 3
+Tue Nov 10 20:04:45 2020  [DEBUG] Truncate           = 64
+Tue Nov 10 20:04:45 2020  [DEBUG] DirPrefix          = 0
+Tue Nov 10 20:04:45 2020  [DEBUG] Label              = 2
+Tue Nov 10 20:04:45 2020  [DEBUG] LogType            = 7
+Tue Nov 10 20:04:45 2020  [DEBUG] LowerCase          = 1
+Tue Nov 10 20:04:45 2020  [DEBUG] TitlePref          = 0
+Tue Nov 10 20:04:45 2020  [DEBUG] DecodeHexStrings   = 0
+Tue Nov 10 20:04:45 2020  [DEBUG] FixNewlines        = 0
+Tue Nov 10 20:04:45 2020  [DEBUG] AllowUnsafeOptions = 0
+Tue Nov 10 20:04:45 2020  [DEBUG] AnonUMask          = 0000
+Tue Nov 10 20:04:45 2020  [DEBUG] UserUMask          = 0077
+Tue Nov 10 20:04:45 2020  [DEBUG] *** End of Configuration ***
+Tue Nov 10 20:04:45 2020  [DEBUG] set new gid: lp
+Tue Nov 10 20:04:45 2020  [DEBUG] initialization finished: v3.0.1
+Tue Nov 10 20:04:45 2020  [DEBUG] unknown user: anonymous
+Tue Nov 10 20:04:45 2020  [DEBUG] trying lower case user name: anonymous
+Tue Nov 10 20:04:45 2020  [DEBUG] unknown user: anonymous
+Tue Nov 10 20:04:45 2020  [DEBUG] output directory name generated: /var/spool/cups-pdf/ANONYMOUS
+Tue Nov 10 20:04:45 2020  [DEBUG] user information prepared
+Tue Nov 10 20:04:45 2020  [DEBUG] spoolfile name created: /var/spool/cups-pdf/SPOOL/cups2pdf-6216
+Tue Nov 10 20:04:45 2020  [DEBUG] source stream ready
+Tue Nov 10 20:04:45 2020  [DEBUG] destination stream ready: /var/spool/cups-pdf/SPOOL/cups2pdf-6216
+Tue Nov 10 20:04:45 2020  [DEBUG] owner set for spoolfile: /var/spool/cups-pdf/SPOOL/cups2pdf-6216
+Tue Nov 10 20:04:45 2020  [DEBUG] using traditional fgets
+Tue Nov 10 20:04:47 2020  [DEBUG] found beginning of postscript code: %!PS-Adobe-3.0
+
+Tue Nov 10 20:04:47 2020  [DEBUG] now extracting postscript code
+Tue Nov 10 20:04:47 2020  [DEBUG] found title in ps code: (Test Page)
+
+Tue Nov 10 20:04:47 2020  [DEBUG] found end of postscript code: %%EOF
+
+Tue Nov 10 20:04:47 2020  [DEBUG] all data written to spoolfile: /var/spool/cups-pdf/SPOOL/cups2pdf-6216
+Tue Nov 10 20:04:47 2020  [DEBUG] trying to use PS title: (Test Page)
+
+Tue Nov 10 20:04:47 2020  [DEBUG] removing special characters from title: (Test Page)
+
+Tue Nov 10 20:04:47 2020  [DEBUG] removing trailing _ from title: _Test_Page__
+Tue Nov 10 20:04:47 2020  [DEBUG] removing leading _ from title: _Test_Page
+Tue Nov 10 20:04:47 2020  [DEBUG] title successfully retrieved: Test_Page-job_7
+Tue Nov 10 20:04:47 2020  [DEBUG] input data read from stdin
+Tue Nov 10 20:04:47 2020  [DEBUG] output filename created: /var/spool/cups-pdf/ANONYMOUS/Test_Page-job_7.pdf
+Tue Nov 10 20:04:47 2020  [DEBUG] ghostscript commandline built: /usr/bin/gs -q -dCompatibilityLevel=1.2 -dNOPAUSE -dBATCH -dSAFER -sDEVICE=pdfwrite -sOutputFile="/var/spool/cups-pdf/ANONYMOUS/Test_Page-job_7.pdf" -dAutoRotatePages=/PageByPage -dAutoFilterColorImages=false -dColorImageFilter=/FlateEncode -dPDFSETTINGS=/prepress -c .setpdfwrite -f /var/spool/cups-pdf/SPOOL/cups2pdf-6216
+Tue Nov 10 20:04:47 2020  [DEBUG] output file unlinked: /var/spool/cups-pdf/ANONYMOUS/Test_Page-job_7.pdf
+Tue Nov 10 20:04:47 2020  [DEBUG] TMPDIR set for GhostScript: /var/tmp
+Tue Nov 10 20:04:47 2020  [DEBUG] waiting for child to exit
+Tue Nov 10 20:04:47 2020  [DEBUG] entering child process
+Tue Nov 10 20:04:47 2020  [DEBUG] GID set for current user
+Tue Nov 10 20:04:47 2020  [DEBUG] supplementary groups set for current user
+Tue Nov 10 20:04:47 2020  [DEBUG] UID set for current user: nobody
+Tue Nov 10 20:04:47 2020  [DEBUG] ghostscript has finished: 0
+Tue Nov 10 20:04:47 2020  [DEBUG] file mode set for user output: /var/spool/cups-pdf/ANONYMOUS/Test_Page-job_7.pdf
+Tue Nov 10 20:04:47 2020  [DEBUG] no postprocessing
+Tue Nov 10 20:04:47 2020  [DEBUG] spoolfile unlinked: /var/spool/cups-pdf/SPOOL/cups2pdf-6216
+Tue Nov 10 20:04:47 2020  [DEBUG] all memory has been freed
+Tue Nov 10 20:04:47 2020  [STATUS] PDF creation successfully finished for nobody

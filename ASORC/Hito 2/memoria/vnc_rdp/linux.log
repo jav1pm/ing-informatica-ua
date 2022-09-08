@@ -1,0 +1,69 @@
+[20201106-20:29:51] [INFO ] starting xrdp with pid 6008
+[20201106-20:29:56] [INFO ] address [0.0.0.0] port [3389] mode 1
+[20201106-20:29:56] [INFO ] listening to port 3389 on 0.0.0.0
+[20201106-20:29:56] [INFO ] xrdp_listen_pp done
+[20201106-20:32:19] [INFO ] Socket 12: AF_INET connection received from 192.168.56.1 port 52477
+[20201106-20:32:19] [DEBUG] Closed socket 12 (AF_INET 192.168.56.114:3389)
+[20201106-20:32:19] [DEBUG] Closed socket 11 (AF_INET 0.0.0.0:3389)
+[20201106-20:32:19] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+[20201106-20:32:19] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+[20201106-20:32:19] [DEBUG] TLSv1.3 enabled
+[20201106-20:32:19] [DEBUG] TLSv1.2 enabled
+[20201106-20:32:19] [DEBUG] Security layer: requested 11, selected 1
+[20201106-20:32:19] [DEBUG] Closed socket 12 (AF_INET 192.168.56.114:3389)
+[20201106-20:32:22] [INFO ] Socket 12: AF_INET connection received from 192.168.56.1 port 52478
+[20201106-20:32:22] [DEBUG] Closed socket 12 (AF_INET 192.168.56.114:3389)
+[20201106-20:32:22] [DEBUG] Closed socket 11 (AF_INET 0.0.0.0:3389)
+[20201106-20:32:22] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+[20201106-20:32:22] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+[20201106-20:32:22] [DEBUG] TLSv1.3 enabled
+[20201106-20:32:22] [DEBUG] TLSv1.2 enabled
+[20201106-20:32:22] [DEBUG] Security layer: requested 11, selected 1
+[20201106-20:32:22] [INFO ] connected client computer name: DESKTOP-MKSCQTF
+[20201106-20:32:22] [INFO ] adding channel item name rdpdr chan_id 1004 flags 0x80800000
+[20201106-20:32:22] [INFO ] adding channel item name rdpsnd chan_id 1005 flags 0xc0000000
+[20201106-20:32:22] [INFO ] adding channel item name cliprdr chan_id 1006 flags 0xc0a00000
+[20201106-20:32:22] [INFO ] adding channel item name drdynvc chan_id 1007 flags 0xc0800000
+[20201106-20:32:22] [INFO ] TLS connection established from 192.168.56.1 port 52478: TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384
+[20201106-20:32:22] [DEBUG] xrdp_000017ef_wm_login_mode_event_00000001
+[20201106-20:32:22] [INFO ] Loading keymap file /etc/xrdp/km-0000040a.ini
+[20201106-20:32:22] [WARN ] local keymap file for 0x0000040a found and doesn't match built in keymap, using local keymap file
+[20201106-20:32:32] [DEBUG] xrdp_wm_log_msg: connecting to sesman ip 127.0.0.1 port 3350
+[20201106-20:32:32] [INFO ] xrdp_wm_log_msg: sesman connect ok
+[20201106-20:32:32] [DEBUG] xrdp_wm_log_msg: sending login info to session manager, please wait...
+[20201106-20:32:32] [DEBUG] return value from xrdp_mm_connect 0
+[20201106-20:32:32] [INFO ] xrdp_wm_log_msg: login successful for display 10
+[20201106-20:32:32] [DEBUG] Layout from client_info (geom=1920x1080 #screens=1) : 0:(1920x1080+0+0)
+[20201106-20:32:32] [DEBUG] xrdp_wm_log_msg: VNC started connecting
+[20201106-20:32:32] [DEBUG] xrdp_wm_log_msg: VNC connecting to 127.0.0.1 5910
+[20201106-20:32:32] [DEBUG] xrdp_wm_log_msg: VNC tcp connected
+[20201106-20:32:32] [DEBUG] xrdp_wm_log_msg: VNC security level is 2 (1 = none, 2 = standard)
+[20201106-20:32:32] [DEBUG] xrdp_wm_log_msg: VNC password ok
+[20201106-20:32:32] [DEBUG] xrdp_wm_log_msg: VNC sending share flag
+[20201106-20:32:32] [DEBUG] xrdp_wm_log_msg: VNC receiving server init
+[20201106-20:32:32] [DEBUG] xrdp_wm_log_msg: VNC receiving pixel format
+[20201106-20:32:32] [DEBUG] xrdp_wm_log_msg: VNC receiving name length
+[20201106-20:32:33] [DEBUG] xrdp_wm_log_msg: VNC receiving name
+[20201106-20:32:33] [DEBUG] xrdp_wm_log_msg: VNC sending pixel format
+[20201106-20:32:33] [DEBUG] xrdp_wm_log_msg: VNC sending cursor
+[20201106-20:32:33] [DEBUG] xrdp_wm_log_msg: VNC connection complete, connected ok
+[20201106-20:32:33] [DEBUG] xrdp_wm_log_msg: connected ok
+[20201106-20:32:33] [DEBUG] xrdp_mm_connect_chansrv: chansrv connect successful
+[20201106-20:32:33] [DEBUG] Closed socket 18 (AF_INET 127.0.0.1:49200)
+[20201106-20:32:33] [DEBUG] Skipping ENC_CURSOR encoding
+[20201106-20:32:33] [DEBUG] VNC matched ExtendedDesktopSize rectangle x=0, y=0 geom=1920x1080
+[20201106-20:32:33] [DEBUG] VNC server supports resizing
+[20201106-20:32:33] [INFO ] Layout from OldLayout (geom=1920x1080 #screens=1) : 1804289383:(1920x1080+0+0)
+[20201106-20:32:33] [DEBUG] VNC setting screen id to 1804289383 from server
+[20201106-20:32:33] [DEBUG] Server layout is the same as the client layout
+[20201106-20:32:33] [DEBUG] VNC got clip data
+[20201106-20:32:33] [DEBUG] VNC got clip data
+[20201106-20:33:25] [DEBUG] Closed socket 12 (AF_INET 192.168.56.114:3389)
+[20201106-20:33:25] [DEBUG] xrdp_mm_module_cleanup
+[20201106-20:33:25] [DEBUG] VNC mod_exit
+[20201106-20:33:25] [DEBUG] Closed socket 19 (AF_INET 127.0.0.1:50010)
+[20201106-20:33:25] [DEBUG] Closed socket 20 (AF_UNIX)
+[20201106-21:01:25] [INFO ] starting xrdp with pid 1287
+[20201106-21:01:25] [INFO ] address [0.0.0.0] port [3389] mode 1
+[20201106-21:01:26] [INFO ] listening to port 3389 on 0.0.0.0
+[20201106-21:01:26] [INFO ] xrdp_listen_pp done

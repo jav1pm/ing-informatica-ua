@@ -1,0 +1,28 @@
+     1	16:32	clear
+     2	16:32	pkg install nano
+     3	16:33	nano /etc/rc.conf
+     4	16:35	ifconfig
+     5	16:36	nano /etc/rc.conf
+     6	16:43	/etc/rc.d/netif restart
+     7	16:43	/etc/rc.d/routing restart
+     8	16:43	ifconfig
+     9	16:52	pkg install dhcp-server
+    10	16:55	pkg install dhcp-server
+    11	16:55	pkg search dhcp
+    12	16:56	exit
+    13	17:04	nano /usr/local/etc/
+    14	17:05	clear
+    15	17:05	cd /usr/local/etc/
+    16	17:06	ls
+    17	17:06	exit
+    18	17:13	pkg install isc-dhcp44-server
+    19	17:15	cd /usr/local/etc/
+    20	17:15	nano dhcpd.conf
+    21	17:30	service isc-dhcp restart
+    22	17:31	service isc-dhcpd restart
+    23	17:31	nano /etc/rc.conf
+    24	17:31	service isc-dhcpd restart
+    25	17:34	service isc-dhcpd status
+    26	17:38	cat dhcpd.conf
+    27	17:50	exit
+    28	17:52	history >> /home/Javi/memoria/dhcp/historyunix.txt

@@ -1,0 +1,115 @@
+    1  yum update
+    2  clear
+    3  exit
+    4  yum install gcc kernel-devel kernel-headers dkms make bzip2 perl
+    5  yum pudate
+    6  yum update
+    7  clear
+    8  yum upgrade
+    9  yum install gcc kernel-devel kernel-headers dkms make bzip2 perl
+   10  yum install gcc kernel-devel
+   11  yum install perl
+   12  clear
+   13  reboot
+   14  yum install libelf-devel
+   15  yum install libelf-dev
+   16  yum install elfutils-libelf-devel
+   17  clear
+   18  exit
+   19  pwd
+   20  /etc/sysconfig/network-scripts
+   21  pwd
+   22  cat ifcfg-enp0s3
+   23  network-scripts
+   24  cd /etc/sysconfig/network-scripts
+   25  find
+   26  cat ifcfg-enp0s3
+   27  cat ifcfg-enp0s8
+   28  nano ifcfg-enp0s8
+   29  nano ifcfg-enp0s3
+   30  nano ifcfg-enp0s8
+   31  nano ifcfg-enp0s3
+   32  systemctl restart network-online.target
+   33  ip a
+   34  exit
+   35  yum install neofetch
+   36  clear
+   37  exit
+   38  cat ifcfg-enp0s3
+   39  cd /etc/sysconfig/network-scripts
+   40  cat ifcfg-enp0s8
+   41  clear
+   42  cat ifcfg-enp0s8
+   43  clear
+   44  exit
+   45  clear
+   46  exit
+   47  yum install libreoffice
+   48  exit
+   49  sudo rpm -v --import https://download.sublimetext.com/sublimehq-rpm-pub.gpg
+   50  sudo yum-config-manager --add-repo https://download.sublimetext.com/rpm/stable/x86_64/sublime-text.repo
+   51  sudo yum-config-manager --add-repo https://download.sublimetext.com/rpm/dev/x86_64/sublime-text.repo
+   52  yum-config-manager --add-repo https://download.sublimetext.com/rpm/dev/x86_64/sublime-text.repo
+   53  exit
+   54  clear
+   55  nano /etc/ssh/sshd_config 
+   56  ifconfig
+   57  nano /etc/sysconfig/selinux
+   58  reboot
+   59  cd /etc/ssh/
+   60  nano sshd_config 
+   61  systemctl status sshd
+   62  netstat -ltunp |grep ssh
+   63  clear
+   64  cd ..
+   65  pwd
+   66  exit
+   67  systemctl restart sshd
+   68  exit
+   69  history
+   70  exit
+   71  dnf install xrdp
+   72  systemctl start xrdp
+   73  systemctl status xrdp
+   74  netstat -tulnp |grep 3389
+   75  exit
+   76  dnf install mariadb-server
+   77  mysql_secure_installation 
+   78  systemctl start mariadb
+   79  mysql_secure_installation 
+   80   mysql -u root -p
+   81  netstat -tulnp | grep 3306
+   82  firewall-cmd --add-port=3306/tcp
+   83  firewall-cmd --reload
+   84  firewall-cmd --permanent --add-port=3306/tcp
+   85  firewall-cmd --reload
+   86  mysql -u root -p
+   87  netstat -tulnp | grep 22
+   88  dnf install httpd
+   89  dnf install php php-mysqlnd
+   90  apachectl configtest
+   91  nano /etc/httpd/conf/httpd.conf 
+   92  apachectl configtest
+   93  systemctl start httpd
+   94  systemctl status httpd
+   95  systemctl enable httpd
+   96  systemctl status httpd
+   97  netstat -tulnp | grep httpd
+   98  firewall-cmd --permanent --add-port=80/tcp
+   99  firewall-cmd --reload
+  100  cd /var/www/html/
+  101  ls
+  102  echo <?php
+  103  echo '<?php' > dbdtest.php
+  104  ls
+  105  rm dbdtest.php 
+  106  ls
+  107  clear
+  108  cp /home/javi/Escritorio/dbdtest.php  .
+  109  ls
+  110  cat dbdtest.php 
+  111  clear
+  112  ls
+  113  cd ..
+  114  exit
+  115  history >> /home/javi/Escritorio/memoria/bd/historylinux.txt

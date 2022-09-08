@@ -1,0 +1,133 @@
+    1  ./VBoxLinuxAdditions.run 
+    2  sudo ./VBoxLinuxAdditions.run 
+    3  clear
+    4  cd ..
+    5  clear
+    6  yum update
+    7  su -
+    8  yum install gcc kernel-devel kernel-headers dkms make bzip2 perl
+    9  su -
+   10  cd /media/VirtualBoxAdditions
+   11  su -
+   12  ifconfig
+   13  nano /etc/sysconfig/network-scripts
+   14  cat ifcfg-enp0s3
+   15  su -
+   16  reboot
+   17  yum install neofetch
+   18  sudo yum install neofetch
+   19  su -
+   20  sudo dnf update
+   21  sudo dnf install epel-release -y
+   22  clear
+   23  sudo dnf search neofetch
+   24  sudo dnf install neofetch
+   25  clear
+   26  neofetch
+   27  clear
+   28  su -
+   29  sudo lid -g wheel
+   30  sudo passwd programador
+   31  sudo passwd multimedia
+   32  sudo passwd oficina
+   33  clear
+   34  reboot
+   35  sudo yum update
+   36  sudo yum upgrade
+   37  clear
+   38  su -
+   39  chmod 700 .ssh/
+   40  chmod 600 .ssh/authorized_keys 
+   41  systemctl restart sshd
+   42  clear
+   43  su -
+   44  exit
+   45  cd /etc/ssh/
+   46  su -
+   47  cd ..
+   48  su - javi
+   49  exit
+   50  history
+   51  clear
+   52  sudo dnf install tigervnc-server
+   53  vncpasswd
+   54  cp /usr/lib/systemd/system/vncserver\@.service /etc/systemd/system/.
+   55  sudo cp /usr/lib/systemd/system/vncserver\@.service /etc/systemd/system/.
+   56  sudo nano /etc/systemd/system/vncserver\@.service
+   57  sudo systemctl daemon-reload 
+   58  sudo ystemctl start vncserver@1.service
+   59  sudo systemctl start vncserver@1.service
+   60  sudo systemctl enable vncserver@:1.service
+   61  sudo systemctl status vncserver@:1.service
+   62  sudo systemctl start vncserver@:1.service
+   63  sudo systemctl enable vncserver@:1.service
+   64  sudo systemctl status vncserver@:1.service
+   65  nano .vnc/config 
+   66  sudo systemctl daemon-reload 
+   67  sudo systemctl status vncserver@:1.service
+   68  netstat -tunlp | grep vnc
+   69  firewall-cmd --permanent --add-port=5901/tcp
+   70  sudo firewall-cmd --permanent --add-port=5901/tcp
+   71  cat /home/javi/.vnc/xstartup 
+   72  clear
+   73  cd ..
+   74  exit
+   75  nano .vnc/config 
+   76  sudo systemctl daemon-reload 
+   77  sudo systemctl status vncserver@:1.service
+   78  nano .vnc/config 
+   79  sudo systemctl daemon-reload 
+   80  sudo systemctl status vncserver@:1.service
+   81  cd .vnc/
+   82  chmod 775 xstartup 
+   83  sudo systemctl daemon-reload 
+   84  sudo systemctl status vncserver@:1.service
+   85  cd ..
+   86  cd /usr/local/bin/
+   87  ls
+   88  cd ..
+   89  sudo nano /usr/local/bin/vncserver
+   90  sudo systemctl daemon-reload 
+   91  sudo systemctl status vncserver@:1.service
+   92  sudo nano /usr/local/bin/vncserver
+   93  sudo nano /etc/sysconfig/vncservers 
+   94  sudo nano /lib/systemd/system/vncserver@.service
+   95  sudo systemctl daemon-reload 
+   96  sudo systemctl status vncserver@:1.service
+   97  sudo systemctl start vncserver@:2.service
+   98  sudo systemctl status vncserver@:2.service
+   99  firewall-cmd --permanent --add-port=5902/tcp
+  100  sudo firewall-cmd --permanent --add-port=5902/tcp
+  101  sudo firewall-cmd --reload
+  102  sudo systemctl status vncserver@:2.service
+  103  sudo systemctl daemon-reload 
+  104  sudo systemctl start vncserver@:2.service
+  105  sudo systemctl status vncserver@:2.service
+  106  sudo systemctl enable vncserver@:2.service
+  107  cd /tmp/.X11-unix/
+  108  ls
+  109  rm -f X1
+  110  rm -f X1024
+  111  clear
+  112  cd ..
+  113  sudo systemctl daemon-reload 
+  114  sudo systemctl start vncserver@:1.service
+  115  sudo nano /etc/systemd/system/vncserver\@.service
+  116  sudo systemctl daemon-reload 
+  117  sudo systemctl start vncserver@:1.service
+  118  sudo systemctl status vncserver@:2.service
+  119  sudo systemctl status vncserver@:1.service
+  120  sudo nano /etc/systemd/system/vncserver\@.service
+  121  sudo systemctl daemon-reload 
+  122  sudo systemctl status vncserver@:1.service
+  123  sudo nano /etc/gdm/custom.conf 
+  124  sudo systemctl daemon-reload 
+  125  sudo systemctl status vncserver@:1.service
+  126  sudo nano /etc/systemd/system/vncserver\@.service
+  127  exit
+  128  cd Escritorio/
+  129  cd memoria/
+  130  ls
+  131  mkdir vnc_rdp
+  132  history
+  133  history >> /home/javi/Escritorio/memoria/vnc_rdp/historylinux.txt

@@ -1,0 +1,62 @@
+Oct  5 18:08:42 localhost sshd[1066]: Server listening on 0.0.0.0 port 22.
+Oct  5 18:08:42 localhost sshd[1066]: Server listening on :: port 22.
+Oct  5 18:27:19 localhost sshd[1291]: Server listening on 0.0.0.0 port 22.
+Oct  5 18:27:19 localhost sshd[1291]: Server listening on :: port 22.
+Oct  5 18:38:24 localhost sshd[1031]: Server listening on 0.0.0.0 port 22.
+Oct  5 18:38:24 localhost sshd[1031]: Server listening on :: port 22.
+Oct  5 18:58:00 localhost sshd[1033]: Server listening on 0.0.0.0 port 22.
+Oct  5 18:58:00 localhost sshd[1033]: Server listening on :: port 22.
+Oct  6 17:00:04 localhost sshd[1036]: Server listening on 0.0.0.0 port 22.
+Oct  6 17:00:04 localhost sshd[1036]: Server listening on :: port 22.
+Oct  6 18:30:03 localhost sshd[1040]: Server listening on 0.0.0.0 port 22.
+Oct  6 18:30:03 localhost sshd[1040]: Server listening on :: port 22.
+Oct  6 18:47:13 localhost sshd[1032]: Server listening on 0.0.0.0 port 22.
+Oct  6 18:47:13 localhost sshd[1032]: Server listening on :: port 22.
+Oct 12 11:23:55 localhost sshd[1034]: Server listening on 0.0.0.0 port 22.
+Oct 12 11:23:55 localhost sshd[1034]: Server listening on :: port 22.
+Oct 14 10:55:40 localhost sshd[1029]: Server listening on 0.0.0.0 port 22.
+Oct 14 10:55:40 localhost sshd[1029]: Server listening on :: port 22.
+Nov  6 17:01:37 localhost sshd[1031]: Server listening on 0.0.0.0 port 22.
+Nov  6 17:01:37 localhost sshd[1031]: Server listening on :: port 22.
+Nov  6 17:23:04 localhost sshd[62269]: Accepted password for javi from 192.168.56.1 port 51529 ssh2
+Nov  6 17:23:04 localhost sshd[62269]: pam_unix(sshd:session): session opened for user javi by (uid=0)
+Nov  6 17:27:29 localhost sshd[1029]: Server listening on 0.0.0.0 port 22.
+Nov  6 17:27:29 localhost sshd[1029]: Server listening on :: port 22.
+Nov  6 17:28:49 localhost sshd[6351]: Accepted password for javi from 192.168.56.1 port 51544 ssh2
+Nov  6 17:28:49 localhost sshd[6351]: pam_unix(sshd:session): session opened for user javi by (uid=0)
+Nov  6 17:41:49 localhost sshd[6632]: Accepted password for javi from 192.168.56.1 port 51565 ssh2
+Nov  6 17:41:49 localhost sshd[6632]: pam_unix(sshd:session): session opened for user javi by (uid=0)
+Nov  6 17:41:49 localhost sshd[6634]: Received disconnect from 192.168.56.1 port 51565:11: disconnected by user
+Nov  6 17:41:49 localhost sshd[6634]: Disconnected from user javi 192.168.56.1 port 51565
+Nov  6 17:41:49 localhost sshd[6632]: pam_unix(sshd:session): session closed for user javi
+Nov  6 17:46:33 localhost polkitd[878]: Operator of unix-process:6887:116553 successfully authenticated as unix-user:javi to gain ONE-SHOT authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.501 [systemctl restart sshd] (owned by unix-user:javi)
+Nov  6 17:46:33 localhost sshd[1029]: Received signal 15; terminating.
+Nov  6 17:46:33 localhost sshd[6924]: Server listening on 0.0.0.0 port 22.
+Nov  6 17:46:33 localhost sshd[6924]: Server listening on :: port 22.
+Nov  6 17:46:53 localhost sshd[6924]: Received signal 15; terminating.
+Nov  6 17:46:53 localhost sshd[6967]: Server listening on 0.0.0.0 port 22.
+Nov  6 17:46:53 localhost sshd[6967]: Server listening on :: port 22.
+Nov  6 17:47:55 localhost sshd[6374]: Received disconnect from 192.168.56.1 port 51544:11: disconnected by user
+Nov  6 17:47:55 localhost sshd[6374]: Disconnected from user javi 192.168.56.1 port 51544
+Nov  6 17:47:55 localhost sshd[6351]: pam_unix(sshd:session): session closed for user javi
+Nov  6 17:48:11 localhost sshd[7019]: Accepted publickey for javi from 192.168.56.1 port 51583 ssh2: RSA SHA256:yYgPNimw7wAEDatn4QPEXb09I8/K5wKZ56mg4MFGxmo
+Nov  6 17:48:11 localhost sshd[7019]: pam_unix(sshd:session): session opened for user javi by (uid=0)
+Nov  6 17:52:58 localhost sshd[7021]: Received disconnect from 192.168.56.1 port 51583:11: disconnected by user
+Nov  6 17:52:58 localhost sshd[7021]: Disconnected from user javi 192.168.56.1 port 51583
+Nov  6 17:52:58 localhost sshd[7019]: pam_unix(sshd:session): session closed for user javi
+Nov  6 17:56:03 localhost sshd[7188]: Accepted password for javi from 192.168.56.1 port 51613 ssh2
+Nov  6 17:56:03 localhost sshd[7188]: pam_unix(sshd:session): session opened for user javi by (uid=0)
+Nov  6 17:56:46 localhost sshd[7230]: Accepted password for javi from 192.168.56.1 port 51615 ssh2
+Nov  6 17:56:46 localhost sshd[7230]: pam_unix(sshd:session): session opened for user javi by (uid=0)
+Nov  6 17:57:46 localhost sshd[7230]: pam_unix(sshd:session): session closed for user javi
+Nov  6 17:58:03 localhost sshd[7315]: Accepted password for javi from 192.168.56.1 port 51619 ssh2
+Nov  6 17:58:03 localhost sshd[7315]: pam_unix(sshd:session): session opened for user javi by (uid=0)
+Nov  6 17:59:03 localhost sshd[7315]: pam_unix(sshd:session): session closed for user javi
+Nov  6 17:59:37 localhost sshd[7428]: Accepted publickey for javi from 192.168.56.1 port 51635 ssh2: RSA SHA256:yYgPNimw7wAEDatn4QPEXb09I8/K5wKZ56mg4MFGxmo
+Nov  6 17:59:37 localhost sshd[7428]: pam_unix(sshd:session): session opened for user javi by (uid=0)
+Nov  6 18:01:44 localhost sshd[7515]: Accepted publickey for javi from 192.168.56.1 port 51648 ssh2: RSA SHA256:yYgPNimw7wAEDatn4QPEXb09I8/K5wKZ56mg4MFGxmo
+Nov  6 18:01:44 localhost sshd[7515]: pam_unix(sshd:session): session opened for user javi by (uid=0)
+Nov  6 18:01:45 localhost sshd[7517]: Received disconnect from 192.168.56.1 port 51648:11: disconnected by user
+Nov  6 18:01:45 localhost sshd[7517]: Disconnected from user javi 192.168.56.1 port 51648
+Nov  6 18:01:45 localhost sshd[7515]: pam_unix(sshd:session): session closed for user javi
+Nov  6 18:03:57 localhost sshd[7188]: pam_unix(sshd:session): session closed for user javi

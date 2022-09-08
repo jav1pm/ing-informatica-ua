@@ -1,0 +1,334 @@
+    1  yum update
+    2  clear
+    3  exit
+    4  yum install gcc kernel-devel kernel-headers dkms make bzip2 perl
+    5  yum pudate
+    6  yum update
+    7  clear
+    8  yum upgrade
+    9  yum install gcc kernel-devel kernel-headers dkms make bzip2 perl
+   10  yum install gcc kernel-devel
+   11  yum install perl
+   12  clear
+   13  reboot
+   14  yum install libelf-devel
+   15  yum install libelf-dev
+   16  yum install elfutils-libelf-devel
+   17  clear
+   18  exit
+   19  pwd
+   20  /etc/sysconfig/network-scripts
+   21  pwd
+   22  cat ifcfg-enp0s3
+   23  network-scripts
+   24  cd /etc/sysconfig/network-scripts
+   25  find
+   26  cat ifcfg-enp0s3
+   27  cat ifcfg-enp0s8
+   28  nano ifcfg-enp0s8
+   29  nano ifcfg-enp0s3
+   30  nano ifcfg-enp0s8
+   31  nano ifcfg-enp0s3
+   32  systemctl restart network-online.target
+   33  ip a
+   34  exit
+   35  yum install neofetch
+   36  clear
+   37  exit
+   38  cat ifcfg-enp0s3
+   39  cd /etc/sysconfig/network-scripts
+   40  cat ifcfg-enp0s8
+   41  clear
+   42  cat ifcfg-enp0s8
+   43  clear
+   44  exit
+   45  clear
+   46  exit
+   47  yum install libreoffice
+   48  exit
+   49  sudo rpm -v --import https://download.sublimetext.com/sublimehq-rpm-pub.gpg
+   50  sudo yum-config-manager --add-repo https://download.sublimetext.com/rpm/stable/x86_64/sublime-text.repo
+   51  sudo yum-config-manager --add-repo https://download.sublimetext.com/rpm/dev/x86_64/sublime-text.repo
+   52  yum-config-manager --add-repo https://download.sublimetext.com/rpm/dev/x86_64/sublime-text.repo
+   53  exit
+   54  clear
+   55  nano /etc/ssh/sshd_config 
+   56  ifconfig
+   57  nano /etc/sysconfig/selinux
+   58  reboot
+   59  cd /etc/ssh/
+   60  nano sshd_config 
+   61  systemctl status sshd
+   62  netstat -ltunp |grep ssh
+   63  clear
+   64  cd ..
+   65  pwd
+   66  exit
+   67  systemctl restart sshd
+   68  exit
+   69  history
+   70  exit
+   71  dnf install xrdp
+   72  systemctl start xrdp
+   73  systemctl status xrdp
+   74  netstat -tulnp |grep 3389
+   75  exit
+   76  dnf install mariadb-server
+   77  mysql_secure_installation 
+   78  systemctl start mariadb
+   79  mysql_secure_installation 
+   80   mysql -u root -p
+   81  netstat -tulnp | grep 3306
+   82  firewall-cmd --add-port=3306/tcp
+   83  firewall-cmd --reload
+   84  firewall-cmd --permanent --add-port=3306/tcp
+   85  firewall-cmd --reload
+   86  mysql -u root -p
+   87  netstat -tulnp | grep 22
+   88  dnf install httpd
+   89  dnf install php php-mysqlnd
+   90  apachectl configtest
+   91  nano /etc/httpd/conf/httpd.conf 
+   92  apachectl configtest
+   93  systemctl start httpd
+   94  systemctl status httpd
+   95  systemctl enable httpd
+   96  systemctl status httpd
+   97  netstat -tulnp | grep httpd
+   98  firewall-cmd --permanent --add-port=80/tcp
+   99  firewall-cmd --reload
+  100  cd /var/www/html/
+  101  ls
+  102  echo <?php
+  103  echo '<?php' > dbdtest.php
+  104  ls
+  105  rm dbdtest.php 
+  106  ls
+  107  clear
+  108  cp /home/javi/Escritorio/dbdtest.php  .
+  109  ls
+  110  cat dbdtest.php 
+  111  clear
+  112  ls
+  113  cd ..
+  114  exit
+  115  history >> /home/javi/Escritorio/memoria/bd/historylinux.txt
+  116  sudo cat /var/log/secure | grep "mariadb"
+  117  sudo cat /var/log/secure | grep "sshd"
+  118  clear
+  119  cd /var/log/mariadb/
+  120  ls
+  121  cat mariadb.log 
+  122  cat /var/log/syslog | grep "mysqld"
+  123  cd ..
+  124  cd httpd/
+  125  ls
+  126  cat access_log 
+  127  cd ..
+  128  cd mariadb/
+  129  cat mariadb.log >> /home/javi/Escritorio/memoria/bd/linux.log
+  130  cd ..
+  131  cd httpd/
+  132  cat access_log >> /home/javi/Escritorio/memoria/bd/linux.log
+  133  exit
+  134  cd /etc/httpd/conf.d
+  135  ls
+  136  nano virtualdomains.conf
+  137  apachectl configtest
+  138  mkdir /var/www/html/embutidosgutierrez.com
+  139  mkdir /var/www/html/almendraslaavellana.com
+  140  cd /var/www/html/almendraslaavellana.com
+  141  ls
+  142  nano index.html
+  143  cd /var/www/html/embutidosgutierrez.com/
+  144  nano index.html
+  145  nano /etc/nsswitch.conf
+  146  systemctl restart httpd
+  147  ls
+  148  cat index.html 
+  149  cd /var/www/html/almendraslaavellana.com/
+  150  ls
+  151  cat index.html 
+  152  apachectl configtest
+  153  ls
+  154  nano index.html 
+  155  systemctl restart httpd
+  156  cd /var/www/html/embutidosgutierrez.com/
+  157  ls
+  158  cat index.html 
+  159  apachectl configtest
+  160  cd /var/www/html/embutidosgutierrez.com/
+  161  ls
+  162  nano index.html 
+  163  cd /var/www/html/almendraslaavellana.com/
+  164  ls
+  165  nano index.html 
+  166  systemctl restart httpd
+  167  systemctl status httpd
+  168  nano virtualdomains.conf
+  169  cd ..
+  170  cd /etc/httpd/conf.d/
+  171  ls
+  172  nano virtualdomains.conf 
+  173  systemctl restart httpd
+  174  apache configtest
+  175  apachectl configtest
+  176  cd /etc/httpd/conf.d/
+  177  ls
+  178  cat virtualdomains.conf 
+  179  exit
+  180  history >> /home/javi/Escritorio/memoria/web/historylinux.txt
+  181  cd /etc/httpd/
+  182  ls
+  183  cat logs
+  184  cd logs/
+  185  ls
+  186  cat access_log 
+  187  cat access_log >> /home/javi/Escritorio/memoria/web/linux.log
+  188  exit
+  189  cd /var/www/html/embutidosgutierrez.com/
+  190  rm index.html 
+  191  wget https://downloads.joomla.org/cms/joomla3/3-9-22/Joomla_3-9-22-Stable-Full_Package.zip?format=zip
+  192  mv Joomla_3-9-22-Stable-Full_Package.zip\?format\=zip joomla.zip
+  193  ls
+  194  unzip joomla.zip 
+  195  ls -l
+  196  cd ..
+  197  ls -l
+  198  chown -R apache.apache *
+  199  cd embutidosgutierrez.com/
+  200  ls -l
+  201  sudo dnf install php-curl php-xml php-zip php-mysqlnd php-intl php-gd php-json php-ldap php-mbstring php-opcache
+  202  nano /etc/httpd/conf.d/virtualdomains.conf 
+  203  apachectl configtest
+  204  systecmtl restart httpd
+  205  systemcmtl restart httpd
+  206  systemctl restart httpd
+  207  ls
+  208  systemctl restart httpd
+  209  systemctl status httpd
+  210  nano /etc/httpd/conf.d/virtualdomains.conf 
+  211  apachectl configtest
+  212  systemctl restart httpd
+  213  ls -l
+  214  cd ..
+  215  pwd
+  216  ls
+  217  mysql -u root -p
+  218  systemctl start mariadb
+  219  systemctl status mariadb
+  220  systemctl enable mariadb
+  221  mysql -u root -p
+  222  firewall-cmd --permanent --add-service=http
+  223  firewall-cmd --permanent --add-service=https
+  224  firewall-cmd --reload
+  225  nano /etc/httpd/conf.d/virtualdomains.conf 
+  226  cd almendraslaavellana.com/
+  227  ls
+  228  rm index.html 
+  229  nano /etc/httpd/conf.d/virtualdomains.conf 
+  230  ls
+  231  cd ..
+  232  cd embutidosgutierrez.com/
+  233  ls
+  234  mv joomla.zip /var/www/html/almendraslaavellana.com/
+  235  cd 
+  236  cd /var/www/html/almendraslaavellana.com/
+  237  ls
+  238  unzip joomla.zip 
+  239  cd ..
+  240  ls -l
+  241  ls -l almendraslaavellana.com/
+  242  chown -R apache.apache *
+  243  ls -l almendraslaavellana.com/
+  244  ls -l embutidosgutierrez.com/
+  245  clear
+  246  systemctl restart httpd
+  247  cd almendraslaavellana.com/
+  248  mysql -u root -p
+  249  clear
+  250  cd
+  251  history >> /home/javi/Escritorio/memoria/web/historylinux.txt
+  252  cd /var/www/html/embutidosgutierrez.com/
+  253  ls
+  254  cd ..
+  255  cd /etc/httpd/conf.d/
+  256  ls
+  257  cd ..
+  258  ls
+  259  cd 
+  260  cd /var/log/httpd/
+  261  ls
+  262  cat almendraslaavellana.com-access_log 
+  263  cat almendraslaavellana.com-access_log >> /home/javi/Escritorio/memoria/web/linux.log
+  264  cat embutidosgutierrez.com-access_log  >> /home/javi/Escritorio/memoria/web/linux.log
+  265  cd
+  266  exit
+  267  fdisk -l
+  268  fdisk /dev/sdb
+  269  nano /etc/fstab
+  270  clear
+  271  exit
+  272  nano /home/javi/.bash_history 
+  273  systsemctl status nfs-server
+  274  systemctl status nfs-server
+  275  systsemctl start nfs-server
+  276  systemctl start nfs-server
+  277  systemctl restart nfs-utils.service
+  278  systemctl enable nfs-utils.service
+  279  systemctl restart nfs-utils.service
+  280  systemctl status nfs-utils.service
+  281  rpcinfo -p | grep nfs
+  282  sudo chmod -R 777 /data/nfs_shared/
+  283  systemctl restart nfs-utils.service
+  284  cd /data/nfs_shared/
+  285  ls
+  286  nano /data/nfs_shared/
+  287  nano /etc/exports
+  288  cd
+  289  sudo firewall-cmd --permanent --add-service=nfs
+  290  sudo firewall-cmd --reload
+  291  sudo firewall-cmd --permanent --add-service=rpc-bind
+  292  sudo firewall-cmd --permanent --add-service=mountd
+  293  sudo firewall-cmd --reload
+  294  sudo exportfs -s
+  295  systemctl restart nfs-utils.service
+  296  touch /data/nfs_shared/server_nfs_check.txt
+  297  clear
+  298  dnf -y install samba samba-client samba-common
+  299  nano /etc/samba/smb.conf
+  300  mkdir -p /data/samba_shared
+  301  ls -l
+  302  ls /data
+  303  ls -l
+  304  clear
+  305  cd /etc/passwd
+  306  cat /etc/passwd
+  307  cat /etc/shadow
+  308  clear
+  309  cat /etc/group
+  310  cat /etc/gshadow
+  311  clear
+  312  nano /etc/samba/smb.conf
+  313  smbpasswd -a javi
+  314  systemctl start nmb smb
+  315  systemctl status nmb smb
+  316  systemctl enable nmb smb
+  317  firewall-cmd --add-service=samba --zone=public --permanent
+  318  firewall-cmd --reload
+  319  systemctl start nmb smb
+  320  systemctl status nmb smb
+  321  ls
+  322  cd ..
+  323  ls
+  324  chmod 777 /data/samba_shared/
+  325  systemctl restart nmb smb
+  326  nano /etc/samba/smb.conf
+  327  cd /data/samba_shared/
+  328  ls
+  329  nano /etc/samba/smb.conf
+  330  systemctl restart nmb smb
+  331  touch /data/samba_shared/samba_server_check.txt
+  332  exit
+  333  cat history >> /home/javi/Escritorio/memoria/nfs_samba/historylinux.txt
+  334  history >> /home/javi/Escritorio/memoria/nfs_samba/historylinux.txt

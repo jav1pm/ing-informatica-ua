@@ -1,0 +1,92 @@
+     1	16:32	clear
+     2	16:32	pkg install nano
+     3	16:33	nano /etc/rc.conf
+     4	16:35	ifconfig
+     5	16:36	nano /etc/rc.conf
+     6	16:43	/etc/rc.d/netif restart
+     7	16:43	/etc/rc.d/routing restart
+     8	16:43	ifconfig
+     9	16:52	pkg install dhcp-server
+    10	16:55	pkg install dhcp-server
+    11	16:55	pkg search dhcp
+    12	16:56	exit
+    13	17:04	nano /usr/local/etc/
+    14	17:05	clear
+    15	17:05	cd /usr/local/etc/
+    16	17:06	ls
+    17	17:06	exit
+    18	17:13	pkg install isc-dhcp44-server
+    19	17:15	cd /usr/local/etc/
+    20	17:15	nano dhcpd.conf
+    21	17:30	service isc-dhcp restart
+    22	17:31	service isc-dhcpd restart
+    23	17:31	nano /etc/rc.conf
+    24	17:31	service isc-dhcpd restart
+    25	17:34	service isc-dhcpd status
+    26	17:38	cat dhcpd.conf
+    27	17:50	exit
+    28	19:00	pkg install xrdp
+    29	19:01	nano /etc/rc.conf
+    30	19:03	service xrdp start
+    31	19:06	service xrdp status
+    32	19:06	service xrdp enable
+    33	19:06	nano /etc/rc.conf
+    34	19:06	clear
+    35	19:07	service xrdp restart
+    36	19:08	cat /var/log/xrdp.log
+    37	19:08	cat /var/log/xrdp.log
+    38	19:13	useradd javier
+    39	19:13	adduser javier
+    40	19:13	clear
+    41	19:17	cat /var/log/xrdp.log
+    42	19:17	cat /var/log/xrdp.log | grep "gnome"
+    43	19:19	exit
+    44	19:21	service xrdp restart
+    45	19:21	nano /etc/rc.conf
+    46	19:22	pkg search xrdp
+    47	19:22	pkg install xorgxrdp
+    48	19:22	pkg install xrdp
+    49	19:26	cat /usr/local/etc/xrdp
+    50	19:26	cd /usr/local/etc/xrdp/
+    51	19:27	clear
+    52	19:27	nano startwm.sh
+    53	19:27	nano startwm.sh
+    54	19:28	cd
+    55	19:29	sysrc xrdp_enable="YES"
+    56	19:29	sysrc xrdp_sesman_enable="YES"
+    57	19:29	service xrdp onestart
+    58	19:29	service xrdp restart
+    59	19:30	cd /usr/local/etc/xrdp/
+    60	19:30	ls
+    61	19:30	nano startwm.sh
+    62	19:30	service xrdp restart
+    63	19:33	nano startwm.sh
+    64	19:33	service xrdp restart
+    65	19:41	nano xrdp.ini
+    66	19:52	cd
+    67	19:52	pkg install xorg
+    68	19:57	pkg install xfce4
+    69	19:58	pkg install xfce
+    70	19:59	nano /etc/rc.conf
+    71	19:59	nano /etc/rc.conf
+    72	20:00	clear
+    73	20:00	nano /etc/rc.conf
+    74	20:00	clear
+    75	20:00	sysrc dbus_enable=yes
+    76	20:00	sysrc hald_enable=yes
+    77	20:01	pkg install virtualbox-oseadditions
+    78	20:01	pkg install virtualbox-ose-additions
+    79	20:02	nano .xinitrc
+    80	20:02	init 6
+    81	20:14	users
+    82	20:14	su Javi
+    83	20:33	exit
+    84	20:35	exit
+    85	20:36	cd /usr/ports/security/sudo/
+    86	20:36	make install clean
+    87	20:37	clear
+    88	20:37	exit
+    89	20:38	cat .vnc/freebsd.asorc.es:1.log >> /home/Javi/memoria/vnc_rdp/unix.log
+    90	20:39	exit
+    91	20:39	history
+    92	20:41	history >> /home/Javi/memoria/vnc_rdp/historyunix.txt

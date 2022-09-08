@@ -1,0 +1,124 @@
+Nov 10 11:08:00 localhost nm-dispatcher[3359]: req:1 'dhcp4-change' [enp0s3]: find-scripts: Cannot execute '/etc/NetworkManager/dispatcher.d/12-dhcpd': not executable by owner.
+Nov 10 11:13:00 localhost nm-dispatcher[3420]: req:1 'dhcp4-change' [enp0s3]: find-scripts: Cannot execute '/etc/NetworkManager/dispatcher.d/12-dhcpd': not executable by owner.
+Nov 10 11:18:00 localhost nm-dispatcher[3475]: req:1 'dhcp4-change' [enp0s3]: find-scripts: Cannot execute '/etc/NetworkManager/dispatcher.d/12-dhcpd': not executable by owner.
+Nov 10 11:23:00 localhost nm-dispatcher[3529]: req:1 'dhcp4-change' [enp0s3]: find-scripts: Cannot execute '/etc/NetworkManager/dispatcher.d/12-dhcpd': not executable by owner.
+Nov 10 11:25:37 localhost dhcpd[3613]: Internet Systems Consortium DHCP Server 4.3.6
+Nov 10 11:25:37 localhost dhcpd[3613]: Copyright 2004-2017 Internet Systems Consortium.
+Nov 10 11:25:37 localhost dhcpd[3613]: All rights reserved.
+Nov 10 11:25:37 localhost dhcpd[3613]: For info, please visit https://www.isc.org/software/dhcp/
+Nov 10 11:25:37 localhost dhcpd[3613]: ldap_gssapi_principal is not set,GSSAPI Authentication for LDAP will not be used
+Nov 10 11:25:37 localhost dhcpd[3613]: Not searching LDAP since ldap-server, ldap-port and ldap-base-dn were not specified in the config file
+Nov 10 11:25:37 localhost dhcpd[3613]: Config file: /etc/dhcp/dhcpd.conf
+Nov 10 11:25:37 localhost dhcpd[3613]: Database file: /var/lib/dhcpd/dhcpd.leases
+Nov 10 11:25:37 localhost dhcpd[3613]: PID file: /var/run/dhcpd.pid
+Nov 10 11:25:37 localhost dhcpd[3613]: Source compiled to use binary-leases
+Nov 10 11:25:37 localhost dhcpd[3613]: Wrote 0 deleted host decls to leases file.
+Nov 10 11:25:37 localhost dhcpd[3613]: Wrote 0 new dynamic host decls to leases file.
+Nov 10 11:25:37 localhost dhcpd[3613]: Wrote 0 leases to leases file.
+Nov 10 11:25:37 localhost dhcpd[3613]: 
+Nov 10 11:25:37 localhost dhcpd[3613]: No subnet declaration for virbr0 (192.168.122.1).
+Nov 10 11:25:37 localhost dhcpd[3613]: ** Ignoring requests on virbr0.  If this is not what
+Nov 10 11:25:37 localhost dhcpd[3613]:   you want, please write a subnet declaration
+Nov 10 11:25:37 localhost dhcpd[3613]:   in your dhcpd.conf file for the network segment
+Nov 10 11:25:37 localhost dhcpd[3613]:   to which interface virbr0 is attached. **
+Nov 10 11:25:37 localhost dhcpd[3613]: 
+Nov 10 11:25:37 localhost dhcpd[3613]: Listening on LPF/enp0s8/08:00:27:17:8f:c3/network.net
+Nov 10 11:25:37 localhost dhcpd[3613]: Sending on   LPF/enp0s8/08:00:27:17:8f:c3/network.net
+Nov 10 11:25:37 localhost dhcpd[3613]: 
+Nov 10 11:25:37 localhost dhcpd[3613]: No subnet declaration for enp0s3 (10.0.2.19).
+Nov 10 11:25:37 localhost dhcpd[3613]: ** Ignoring requests on enp0s3.  If this is not what
+Nov 10 11:25:37 localhost dhcpd[3613]:   you want, please write a subnet declaration
+Nov 10 11:25:37 localhost dhcpd[3613]:   in your dhcpd.conf file for the network segment
+Nov 10 11:25:37 localhost dhcpd[3613]:   to which interface enp0s3 is attached. **
+Nov 10 11:25:37 localhost dhcpd[3613]: 
+Nov 10 11:25:37 localhost dhcpd[3613]: Sending on   Socket/fallback/fallback-net
+Nov 10 11:25:37 localhost dhcpd[3613]: Server starting service.
+Nov 10 11:28:00 localhost nm-dispatcher[3669]: req:1 'dhcp4-change' [enp0s3]: find-scripts: Cannot execute '/etc/NetworkManager/dispatcher.d/12-dhcpd': not executable by owner.
+Nov 10 11:30:46 localhost dhcpd[3613]: DHCPDISCOVER from 08:00:27:40:ee:ab via enp0s8
+Nov 10 11:30:47 localhost dhcpd[3613]: DHCPOFFER on 192.168.56.51 to 08:00:27:40:ee:ab (debian) via enp0s8
+Nov 10 11:30:47 localhost dhcpd[3613]: DHCPREQUEST for 192.168.56.51 (192.168.56.222) from 08:00:27:40:ee:ab (debian) via enp0s8
+Nov 10 11:30:47 localhost dhcpd[3613]: DHCPACK on 192.168.56.51 to 08:00:27:40:ee:ab (debian) via enp0s8
+Nov 10 11:32:11 localhost dhcpd[3613]: DHCPREQUEST for 192.168.56.108 from 08:00:27:71:5d:09 via enp0s8: unknown lease 192.168.56.108.
+Nov 10 11:32:13 localhost dhcpd[3613]: DHCPDISCOVER from 08:00:27:71:5d:09 via enp0s8
+Nov 10 11:32:14 localhost dhcpd[3613]: DHCPOFFER on 192.168.56.52 to 08:00:27:71:5d:09 (javi-VirtualBox) via enp0s8
+Nov 10 11:32:14 localhost dhcpd[3613]: DHCPREQUEST for 192.168.56.52 (192.168.56.222) from 08:00:27:71:5d:09 (javi-VirtualBox) via enp0s8
+Nov 10 11:32:14 localhost dhcpd[3613]: DHCPACK on 192.168.56.52 to 08:00:27:71:5d:09 (javi-VirtualBox) via enp0s8
+Nov 10 11:33:00 localhost nm-dispatcher[3724]: req:1 'dhcp4-change' [enp0s3]: find-scripts: Cannot execute '/etc/NetworkManager/dispatcher.d/12-dhcpd': not executable by owner.
+Nov 10 11:38:00 localhost nm-dispatcher[3777]: req:1 'dhcp4-change' [enp0s3]: find-scripts: Cannot execute '/etc/NetworkManager/dispatcher.d/12-dhcpd': not executable by owner.
+Nov 10 11:43:00 localhost nm-dispatcher[3831]: req:1 'dhcp4-change' [enp0s3]: find-scripts: Cannot execute '/etc/NetworkManager/dispatcher.d/12-dhcpd': not executable by owner.
+Nov 10 11:48:00 localhost nm-dispatcher[3882]: req:1 'dhcp4-change' [enp0s3]: find-scripts: Cannot execute '/etc/NetworkManager/dispatcher.d/12-dhcpd': not executable by owner.
+Nov 10 11:53:00 localhost nm-dispatcher[3937]: req:1 'dhcp4-change' [enp0s3]: find-scripts: Cannot execute '/etc/NetworkManager/dispatcher.d/12-dhcpd': not executable by owner.
+Nov 10 11:58:00 localhost nm-dispatcher[4034]: req:1 'dhcp4-change' [enp0s3]: find-scripts: Cannot execute '/etc/NetworkManager/dispatcher.d/12-dhcpd': not executable by owner.
+Nov 10 12:03:00 localhost nm-dispatcher[4101]: req:1 'dhcp4-change' [enp0s3]: find-scripts: Cannot execute '/etc/NetworkManager/dispatcher.d/12-dhcpd': not executable by owner.
+Nov 10 12:08:00 localhost nm-dispatcher[4157]: req:1 'dhcp4-change' [enp0s3]: find-scripts: Cannot execute '/etc/NetworkManager/dispatcher.d/12-dhcpd': not executable by owner.
+Nov 10 12:13:00 localhost nm-dispatcher[4214]: req:1 'dhcp4-change' [enp0s3]: find-scripts: Cannot execute '/etc/NetworkManager/dispatcher.d/12-dhcpd': not executable by owner.
+Nov 10 12:18:00 localhost nm-dispatcher[4370]: req:1 'dhcp4-change' [enp0s3]: find-scripts: Cannot execute '/etc/NetworkManager/dispatcher.d/12-dhcpd': not executable by owner.
+Nov 10 12:23:00 localhost nm-dispatcher[5453]: req:1 'dhcp4-change' [enp0s3]: find-scripts: Cannot execute '/etc/NetworkManager/dispatcher.d/12-dhcpd': not executable by owner.
+Nov 10 12:28:00 localhost nm-dispatcher[6365]: req:1 'dhcp4-change' [enp0s3]: find-scripts: Cannot execute '/etc/NetworkManager/dispatcher.d/12-dhcpd': not executable by owner.
+Nov 10 12:33:00 localhost nm-dispatcher[6661]: req:1 'dhcp4-change' [enp0s3]: find-scripts: Cannot execute '/etc/NetworkManager/dispatcher.d/12-dhcpd': not executable by owner.
+Nov 10 12:38:00 localhost nm-dispatcher[6762]: req:1 'dhcp4-change' [enp0s3]: find-scripts: Cannot execute '/etc/NetworkManager/dispatcher.d/12-dhcpd': not executable by owner.
+Nov 10 12:43:00 localhost nm-dispatcher[6816]: req:1 'dhcp4-change' [enp0s3]: find-scripts: Cannot execute '/etc/NetworkManager/dispatcher.d/12-dhcpd': not executable by owner.
+Nov 10 12:48:00 localhost nm-dispatcher[7545]: req:1 'dhcp4-change' [enp0s3]: find-scripts: Cannot execute '/etc/NetworkManager/dispatcher.d/12-dhcpd': not executable by owner.
+Nov 10 12:53:00 localhost nm-dispatcher[7969]: req:1 'dhcp4-change' [enp0s3]: find-scripts: Cannot execute '/etc/NetworkManager/dispatcher.d/12-dhcpd': not executable by owner.
+Nov 10 12:58:00 localhost nm-dispatcher[8106]: req:1 'dhcp4-change' [enp0s3]: find-scripts: Cannot execute '/etc/NetworkManager/dispatcher.d/12-dhcpd': not executable by owner.
+Nov 10 13:03:00 localhost nm-dispatcher[8613]: req:1 'dhcp4-change' [enp0s3]: find-scripts: Cannot execute '/etc/NetworkManager/dispatcher.d/12-dhcpd': not executable by owner.
+Nov 10 13:11:44 localhost nm-dispatcher[1134]: req:1 'hostname': find-scripts: Cannot execute '/etc/NetworkManager/dispatcher.d/12-dhcpd': not executable by owner.
+Nov 10 13:11:44 localhost nm-dispatcher[1134]: req:2 'connectivity-change': find-scripts: Cannot execute '/etc/NetworkManager/dispatcher.d/12-dhcpd': not executable by owner.
+Nov 10 13:11:52 localhost nm-dispatcher[1134]: req:5 'up' [enp0s8]: find-scripts: Cannot execute '/etc/NetworkManager/dispatcher.d/12-dhcpd': not executable by owner.
+Nov 10 13:11:52 localhost nm-dispatcher[1134]: req:6 'connectivity-change': find-scripts: Cannot execute '/etc/NetworkManager/dispatcher.d/12-dhcpd': not executable by owner.
+Nov 10 13:11:52 localhost nm-dispatcher[1134]: req:7 'up' [enp0s3]: find-scripts: Cannot execute '/etc/NetworkManager/dispatcher.d/12-dhcpd': not executable by owner.
+Nov 10 13:11:52 localhost nm-dispatcher[1134]: req:8 'connectivity-change': find-scripts: Cannot execute '/etc/NetworkManager/dispatcher.d/12-dhcpd': not executable by owner.
+Nov 10 13:11:53 localhost dhcpd[1444]: Internet Systems Consortium DHCP Server 4.3.6
+Nov 10 13:11:53 localhost dhcpd[1444]: Copyright 2004-2017 Internet Systems Consortium.
+Nov 10 13:11:53 localhost dhcpd[1444]: All rights reserved.
+Nov 10 13:11:53 localhost dhcpd[1444]: For info, please visit https://www.isc.org/software/dhcp/
+Nov 10 13:11:53 localhost dhcpd[1444]: ldap_gssapi_principal is not set,GSSAPI Authentication for LDAP will not be used
+Nov 10 13:11:53 localhost dhcpd[1444]: Not searching LDAP since ldap-server, ldap-port and ldap-base-dn were not specified in the config file
+Nov 10 13:11:53 localhost dhcpd[1444]: Config file: /etc/dhcp/dhcpd.conf
+Nov 10 13:11:53 localhost dhcpd[1444]: Database file: /var/lib/dhcpd/dhcpd.leases
+Nov 10 13:11:53 localhost dhcpd[1444]: PID file: /var/run/dhcpd.pid
+Nov 10 13:11:53 localhost dhcpd[1444]: Source compiled to use binary-leases
+Nov 10 13:11:53 localhost dhcpd[1444]: Wrote 0 deleted host decls to leases file.
+Nov 10 13:11:53 localhost dhcpd[1444]: Wrote 0 new dynamic host decls to leases file.
+Nov 10 13:11:53 localhost dhcpd[1444]: Wrote 2 leases to leases file.
+Nov 10 13:11:54 localhost dhcpd[1444]: Listening on LPF/enp0s8/08:00:27:17:8f:c3/network.net
+Nov 10 13:11:54 localhost dhcpd[1444]: Sending on   LPF/enp0s8/08:00:27:17:8f:c3/network.net
+Nov 10 13:11:54 localhost dhcpd[1444]: 
+Nov 10 13:11:54 localhost dhcpd[1444]: No subnet declaration for enp0s3 (10.0.2.19).
+Nov 10 13:11:54 localhost dhcpd[1444]: ** Ignoring requests on enp0s3.  If this is not what
+Nov 10 13:11:54 localhost dhcpd[1444]:   you want, please write a subnet declaration
+Nov 10 13:11:54 localhost dhcpd[1444]:   in your dhcpd.conf file for the network segment
+Nov 10 13:11:54 localhost dhcpd[1444]:   to which interface enp0s3 is attached. **
+Nov 10 13:11:54 localhost dhcpd[1444]: 
+Nov 10 13:11:54 localhost dhcpd[1444]: Sending on   Socket/fallback/fallback-net
+Nov 10 13:11:54 localhost dhcpd[1444]: Server starting service.
+Nov 10 13:11:58 localhost nm-dispatcher[1134]: req:11 'up' [virbr0]: find-scripts: Cannot execute '/etc/NetworkManager/dispatcher.d/12-dhcpd': not executable by owner.
+Nov 10 13:11:58 localhost nm-dispatcher[1134]: req:12 'up' [virbr0-nic]: find-scripts: Cannot execute '/etc/NetworkManager/dispatcher.d/12-dhcpd': not executable by owner.
+Nov 10 13:11:58 localhost nm-dispatcher[1134]: req:13 'down' [virbr0-nic]: find-scripts: Cannot execute '/etc/NetworkManager/dispatcher.d/12-dhcpd': not executable by owner.
+Nov 10 13:16:51 localhost nm-dispatcher[3222]: req:1 'dhcp4-change' [enp0s3]: find-scripts: Cannot execute '/etc/NetworkManager/dispatcher.d/12-dhcpd': not executable by owner.
+Nov 10 13:21:51 localhost nm-dispatcher[3360]: req:1 'dhcp4-change' [enp0s3]: find-scripts: Cannot execute '/etc/NetworkManager/dispatcher.d/12-dhcpd': not executable by owner.
+Nov 10 13:26:51 localhost nm-dispatcher[3466]: req:1 'dhcp4-change' [enp0s3]: find-scripts: Cannot execute '/etc/NetworkManager/dispatcher.d/12-dhcpd': not executable by owner.
+Nov 10 13:31:51 localhost nm-dispatcher[3584]: req:1 'dhcp4-change' [enp0s3]: find-scripts: Cannot execute '/etc/NetworkManager/dispatcher.d/12-dhcpd': not executable by owner.
+Nov 10 13:36:51 localhost nm-dispatcher[3666]: req:1 'dhcp4-change' [enp0s3]: find-scripts: Cannot execute '/etc/NetworkManager/dispatcher.d/12-dhcpd': not executable by owner.
+Nov 10 13:41:51 localhost nm-dispatcher[4294]: req:1 'dhcp4-change' [enp0s3]: find-scripts: Cannot execute '/etc/NetworkManager/dispatcher.d/12-dhcpd': not executable by owner.
+Nov 10 13:46:51 localhost nm-dispatcher[4477]: req:1 'dhcp4-change' [enp0s3]: find-scripts: Cannot execute '/etc/NetworkManager/dispatcher.d/12-dhcpd': not executable by owner.
+Nov 10 13:51:51 localhost nm-dispatcher[4584]: req:1 'dhcp4-change' [enp0s3]: find-scripts: Cannot execute '/etc/NetworkManager/dispatcher.d/12-dhcpd': not executable by owner.
+Nov 10 13:56:52 localhost nm-dispatcher[5344]: req:1 'dhcp4-change' [enp0s3]: find-scripts: Cannot execute '/etc/NetworkManager/dispatcher.d/12-dhcpd': not executable by owner.
+Nov 10 14:01:51 localhost nm-dispatcher[5962]: req:1 'dhcp4-change' [enp0s3]: find-scripts: Cannot execute '/etc/NetworkManager/dispatcher.d/12-dhcpd': not executable by owner.
+Nov 10 14:06:51 localhost nm-dispatcher[6036]: req:1 'dhcp4-change' [enp0s3]: find-scripts: Cannot execute '/etc/NetworkManager/dispatcher.d/12-dhcpd': not executable by owner.
+Nov 10 14:11:51 localhost nm-dispatcher[6140]: req:1 'dhcp4-change' [enp0s3]: find-scripts: Cannot execute '/etc/NetworkManager/dispatcher.d/12-dhcpd': not executable by owner.
+Nov 10 14:16:51 localhost nm-dispatcher[6195]: req:1 'dhcp4-change' [enp0s3]: find-scripts: Cannot execute '/etc/NetworkManager/dispatcher.d/12-dhcpd': not executable by owner.
+Nov 10 14:21:51 localhost nm-dispatcher[6267]: req:1 'dhcp4-change' [enp0s3]: find-scripts: Cannot execute '/etc/NetworkManager/dispatcher.d/12-dhcpd': not executable by owner.
+Nov 10 14:26:51 localhost nm-dispatcher[6317]: req:1 'dhcp4-change' [enp0s3]: find-scripts: Cannot execute '/etc/NetworkManager/dispatcher.d/12-dhcpd': not executable by owner.
+Nov 10 14:31:51 localhost nm-dispatcher[6373]: req:1 'dhcp4-change' [enp0s3]: find-scripts: Cannot execute '/etc/NetworkManager/dispatcher.d/12-dhcpd': not executable by owner.
+Nov 10 14:36:51 localhost nm-dispatcher[6424]: req:1 'dhcp4-change' [enp0s3]: find-scripts: Cannot execute '/etc/NetworkManager/dispatcher.d/12-dhcpd': not executable by owner.
+Nov 10 14:41:51 localhost nm-dispatcher[6576]: req:1 'dhcp4-change' [enp0s3]: find-scripts: Cannot execute '/etc/NetworkManager/dispatcher.d/12-dhcpd': not executable by owner.
+Nov 10 14:42:20 localhost dhcpd[1444]: Wrote 0 deleted host decls to leases file.
+Nov 10 14:42:20 localhost dhcpd[1444]: Wrote 0 new dynamic host decls to leases file.
+Nov 10 14:42:20 localhost dhcpd[1444]: Wrote 2 leases to leases file.
+Nov 10 14:42:20 localhost dhcpd[1444]: DHCPREQUEST for 192.168.56.51 from 08:00:27:40:ee:ab (debian) via enp0s8
+Nov 10 14:42:20 localhost dhcpd[1444]: DHCPACK on 192.168.56.51 to 08:00:27:40:ee:ab (debian) via enp0s8
+Nov 10 14:46:52 localhost nm-dispatcher[6630]: req:1 'dhcp4-change' [enp0s3]: find-scripts: Cannot execute '/etc/NetworkManager/dispatcher.d/12-dhcpd': not executable by owner.
+Nov 10 14:51:52 localhost nm-dispatcher[6682]: req:1 'dhcp4-change' [enp0s3]: find-scripts: Cannot execute '/etc/NetworkManager/dispatcher.d/12-dhcpd': not executable by owner.
+Nov 10 14:56:52 localhost nm-dispatcher[6837]: req:1 'dhcp4-change' [enp0s3]: find-scripts: Cannot execute '/etc/NetworkManager/dispatcher.d/12-dhcpd': not executable by owner.
+Nov 10 15:01:52 localhost nm-dispatcher[6931]: req:1 'dhcp4-change' [enp0s3]: find-scripts: Cannot execute '/etc/NetworkManager/dispatcher.d/12-dhcpd': not executable by owner.

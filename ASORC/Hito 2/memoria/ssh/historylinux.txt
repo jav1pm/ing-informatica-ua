@@ -1,0 +1,58 @@
+    1  ./VBoxLinuxAdditions.run 
+    2  sudo ./VBoxLinuxAdditions.run 
+    3  clear
+    4  cd ..
+    5  clear
+    6  yum update
+    7  su -
+    8  yum install gcc kernel-devel kernel-headers dkms make bzip2 perl
+    9  su -
+   10  cd /media/VirtualBoxAdditions
+   11  su -
+   12  ifconfig
+   13  nano /etc/sysconfig/network-scripts
+   14  cat ifcfg-enp0s3
+   15  su -
+   16  reboot
+   17  yum install neofetch
+   18  sudo yum install neofetch
+   19  su -
+   20  sudo dnf update
+   21  sudo dnf install epel-release -y
+   22  clear
+   23  sudo dnf search neofetch
+   24  sudo dnf install neofetch
+   25  clear
+   26  neofetch
+   27  clear
+   28  su -
+   29  sudo lid -g wheel
+   30  sudo passwd programador
+   31  sudo passwd multimedia
+   32  sudo passwd oficina
+   33  clear
+   34  reboot
+   35  sudo yum update
+   36  sudo yum upgrade
+   37  clear
+   38  su -
+   39  chmod 700 .ssh/
+   40  chmod 600 .ssh/authorized_keys 
+   41  systemctl restart sshd
+   42  clear
+   43  su -
+   44  exit
+   45  cd /etc/ssh/
+   46  su -
+   47  cd ..
+   48  su - javi
+   49  exit
+   50  cd Escritorio/
+   51  ls
+   52  cd ..
+   53  sudo cat /var/log/secure | grep "sshd" >> /home/javi/Escritorio/memoria/ssh/linux.log
+   54  su -
+   55  history
+   56  cat .history_bash >> /home/javi/Escritorio/memoria/ssh/historylinux.txt
+   57  .history_bash >> /home/javi/Escritorio/memoria/ssh/historylinux.txt
+   58  history >> /home/javi/Escritorio/memoria/ssh/historylinux.txt

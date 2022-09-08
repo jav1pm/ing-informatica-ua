@@ -1,0 +1,74 @@
+     1	18:51	pwd
+     2	18:51	exit
+     3	18:51	pwd
+     4	18:52	ls
+     5	18:53	cd ..
+     6	18:53	ls
+     7	18:53	cd ..
+     8	18:53	ls
+     9	18:53	cd ..
+    10	18:53	ls
+    11	19:04	pkg install virtualbox-ose-additions && make install clean
+    12	19:05	pkg install Libre Office
+    13	19:06	pkg install libreoffice
+    14	19:11	clear
+    15	19:15	pkg install atom
+    16	19:16	pkg install kate
+    17	19:19	pkg install vscode
+    18	19:20	pkg install gcc
+    19	19:22	clear
+    20	19:25	setxkbmap pt
+    21	19:26	pkg install Linux-kernel
+    22	19:26	clear
+    23	19:27	clear
+    24	20:47	pkg install postman
+    25	20:48	code
+    26	20:48	visual studio
+    27	20:48	vscode
+    28	20:48	clear
+    29	20:49	setxkbmap
+    30	20:49	setxkbmap es
+    31	20:49	pkg install linux-kernel
+    32	20:49	pkg install linux sublime3
+    33	20:49	pkg install sublime3
+    34	20:50	pkg install sublime
+    35	20:50	clear
+    36	20:50	pkg install eclipse
+    37	20:54	clear
+    38	16:48	pkg install neofetch
+    39	16:49	clear
+    40	16:49	exit
+    41	16:27	clear
+    42	16:28	exit
+    43	16:30	/media/VBox_GAs_6.1.14
+    44	16:30	./VBoxLinuxAdditions.run
+    45	16:30	clear
+    46	16:30	exit
+    47	10:16	clear
+    48	10:16	su
+    49	10:16	exit
+    50	10:16	su
+    51	10:16	cexit
+    52	10:16	exit
+    53	10:17	exit
+    54	18:29	pkg update
+    55	19:50	clear
+    56	19:50	exit
+    57	21:08	cd
+    58	21:09	cat /var/log/security
+    59	21:09	cat /var/log/security | grep "sshd"
+    60	21:10	clear
+    61	21:11	journalctl -fu sshd
+    62	21:11	cat /var/log/messages | grep "sshd"
+    63	21:12	cat /var/log/messages "sshd"
+    64	21:14	exit
+    65	21:14	cd /var/log/
+    66	21:14	touch sshd.log
+    67	21:14	ee /etc/syslog.conf
+    68	21:16	killall -HUP syslogd
+    69	21:16	exit
+    70	21:21	cat /var/log/auth.log | grep "sshd"
+    71	21:22	exit
+    72	21:23	exit
+    73	21:23	history
+    74	21:24	history >> /home/Javi/memoria/ssh/historyunix.txt
